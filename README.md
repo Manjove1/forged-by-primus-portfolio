@@ -91,11 +91,11 @@ The system was deployed publicly with no advertising. In the first **5 days** it
 
 ## Portfolio Documents
 
-- [Personal Statement](PERSONAL_STATEMENT.md)
-- [Case Study](CASE_STUDY.md)
-- [Technical Systems Documentation](TECHNICAL_SYSTEMS.md)
-- [Prompt Samples](PROMPT_SAMPLES.md)
-- [Analytics & Results Summary](ANALYTICS_AND_RESULTS.md)
+- [Personal Statement](docs/PERSONAL_STATEMENT.md)
+- [Case Study](docs/CASE_STUDY.md)
+- [Technical Systems Documentation](docs/TECHNICAL_SYSTEMS.md)
+- [Prompt Samples](docs/PROMPT_SAMPLES.md)
+- [Analytics & Results Summary](docs/ANALYTICS_AND_RESULTS.md)
 
 ---
 
