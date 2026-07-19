@@ -1,0 +1,9 @@
+# Personal Statement
+
+I build structured AI systems that maintain state, enforce meaningful constraints, and recover when context degrades. Most open-ended AI roleplay tools fail in the same ways: they lose mechanical consistency, allow the model to skip structured processes, and treat every player action as equally valid. When a system lets the player do anything, those actions stop carrying weight. I wanted to design something that preserved consequence without destroying narrative quality.
+
+*Forged by Primus* is the result of that effort. It is a modular, multi-script AI Dungeon Master system that uses an orchestrator pattern, self-healing state tracking, strict sequential gating for character creation, and recovery protocols designed for platforms that aggressively summarize context. The work became a practical exercise in prompt engineering under real constraints — managing long-session reliability, preventing drift, and balancing control with flexible storytelling.
+
+My process is deliberate. I prefer laying foundations first, then iterating and backfilling as new requirements appear. This brick-by-brick approach suits the way I develop interconnected systems. Collaborating with an AI that can match that pace, stress-test assumptions, and help refine structure in real time removes much of the friction that usually comes with that style of work.
+
+I first started the project because of a long-standing interest in how games create meaningful stories, along with a twenty-year attachment to the Transformers franchise. That provided the creative drive and the setting. As the work progressed, the harder technical problems — keeping state reliable, enforcing structure, and recovering from context loss — became the real center of attention. I want to build structures that let an AI do specific things well — with consistency, constraint, and recoverability — in a way that can transfer across settings rather than being tied to one world.
