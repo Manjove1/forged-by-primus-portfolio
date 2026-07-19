@@ -89,6 +89,23 @@ The system was deployed publicly with no advertising. In the first **5 days** it
 
 ---
 
+## Repository Structure
+
+```text
+forged-by-primus-portfolio/
+├── README.md
+├── docs/                  # Portfolio documents
+│   ├── PERSONAL_STATEMENT.md
+│   ├── CASE_STUDY.md
+│   ├── TECHNICAL_SYSTEMS.md
+│   ├── PROMPT_SAMPLES.md
+│   └── ANALYTICS_AND_RESULTS.md
+└── core-systems/          # Overarching mechanics & setting (in progress)
+    └── README.md
+```
+
+---
+
 ## Portfolio Documents
 
 - [Personal Statement](docs/PERSONAL_STATEMENT.md)
