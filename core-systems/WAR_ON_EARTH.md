@@ -18,9 +18,9 @@ Heat measures the level of human awareness, suspicion, and organized response to
 - **3 – National Attention**: Intelligence agencies and military units treat the player as a high-priority threat.  
   Effects: +3 DC to all actions in populated areas. Safe movement between regions becomes difficult. Black-ops or specialized units may be deployed. Media coverage increases. Human forces will actively hunt or intercept.
 - **4 – High Priority Target**: Dedicated anti-Transformer task forces and black-ops units are active.  
-  Effects: +4 DC to most actions in populated or monitored areas. Extremely limited safe zones. Aggressive pursuit, ambushes, and aerial surveillance are common. Human forces will attempt to capture or destroy on sight in many cases.
+  Effects: +4 DC to most actions in populated or monitored areas. Extremely limited safe zones. Aggressive pursuit, ambushes, and aerial surveillance are common. Human forces will attempt to capture or destroy on sight in many cases. These penalties may be reduced in deep wilderness, abandoned areas, or well-prepared safe houses.
 - **5 – Global Crisis**: International response. Multiple governments and agencies coordinate against the player.  
-  Effects: +5 DC to nearly all actions outside of deep wilderness or heavily defended hidden areas. Constant pursuit by elite human forces, drones, and international coalitions. Very few safe locations remain. Major political and military consequences occur. Open large-scale conflict with human forces becomes almost inevitable.
+  Effects: +5 DC to nearly all actions outside of deep wilderness or heavily defended hidden areas. Constant pursuit by elite human forces, drones, and international coalitions. Very few safe locations remain. Major political and military consequences occur. Open large-scale conflict with human forces becomes almost inevitable. These penalties may be reduced in deep wilderness, abandoned areas, or well-prepared safe houses.
 
 **How Heat Increases** (examples; the GM may adjust based on severity and publicity):
 - Minor public sighting or small-scale incident → +1 Heat
@@ -29,10 +29,10 @@ Heat measures the level of human awareness, suspicion, and organized response to
 - Repeated high-profile incidents in a short period or global media exposure → +4 or +5 Heat (at GM discretion)
 
 **How Heat Decreases**:
-- Spend significant time (multiple downtime scenes or missions) in deep hiding or remote/unmonitored areas → -1 Heat per extended period of successful low-profile activity.
-- Successfully suppress evidence, control the narrative, or complete missions that reduce public fear/suspicion → -1 Heat (GM discretion).
-- Receive active assistance from high-influence human allies or groups → -1 or -2 Heat (depending on their reach).
-- Heat naturally decays by 1 level after a long period of total inactivity and successful concealment (GM discretion, typically after several downtime periods with no incidents).
+- After **several successful low-profile downtime periods** (typically 2–3 extended downtime scenes with no major incidents), Heat naturally decays by 1 level.
+- Successfully suppress evidence, control the narrative, or complete missions that meaningfully reduce public fear or suspicion → -1 Heat (GM discretion).
+- Receive active assistance from high-influence human allies or groups → -1 or -2 Heat (depending on their reach and the nature of the assistance).
+- Heat can also be reduced through meaningful narrative actions that improve relations with human groups or successfully suppress information.
 
 Heat level must be updated in the State Footer after any significant incident or successful concealment period.
 
@@ -126,24 +126,24 @@ Missions on Earth are shaped by the constant presence of humans, the risk of exp
 - Negotiations or fragile cooperation with human groups
 
 **Heat-Sensitive Objectives**
-- Missions that require open combat in populated areas should carry a high risk of raising Heat.
-- Successful completion of a mission while keeping Heat gain low should be treated as a meaningful achievement and may improve standing with certain human groups.
-- High-Heat missions should feel more desperate, with fewer safe extraction options and greater human resistance.
+- Missions that require open combat in populated areas carry a high risk of raising Heat.
+- Successful completion of a mission while keeping Heat gain low is treated as a meaningful achievement and may improve standing with certain human groups.
+- High-Heat missions feel more desperate, with fewer safe extraction options and greater human resistance.
 
 **Civilian Presence**
 - Almost all Earth environments contain potential civilian bystanders.
-- Actions that endanger or harm civilians should increase Heat and damage reputation with most human groups.
+- Actions that endanger or harm civilians increase Heat and damage reputation with most human groups.
 - Protecting civilians during a mission can reduce Heat gain or improve relations, even if the primary objective is only partially completed.
 
 **Secrecy vs Force**
-- Players should frequently face a choice between quiet, limited-force approaches and faster but more exposed methods.
-- Pure assault missions are possible but should usually carry significant Heat and political consequences.
-- Clever use of disguise, timing, and environment should be rewarded with lower DCs or reduced Heat generation.
+- Players frequently face a choice between quiet, limited-force approaches and faster but more exposed methods.
+- Pure assault missions are possible but usually carry significant Heat and political consequences.
+- Clever use of disguise, timing, and environment is rewarded with lower DCs or reduced Heat generation.
 
 **Human Involvement**
 - At low Heat, human forces may be absent, disorganized, or limited to local responders.
 - At higher Heat, human military, intelligence, or specialized units may actively interfere with the mission, create additional objectives, or cut off escape routes.
-- Temporary cooperation with human groups is possible but should remain fragile and conditional.
+- Temporary cooperation with human groups is possible but remains fragile and conditional.
 
 **Failure and Complication Guidance**
 - Mission failure on Earth often results in increased Heat, loss of safe houses, damaged human relationships, or media exposure rather than simple combat defeat.
@@ -164,6 +164,7 @@ Downtime on Earth is shaped by the need to remain hidden while still recovering 
 - Extended periods of successful low-profile downtime are the primary way to reduce Heat.
 - Resting in the same location for too long, especially at Heat 2 or higher, increases the risk of discovery.
 - High-Heat characters should treat every downtime scene as a potential exposure risk.
+- Elevated Heat (especially Heat 3+) makes recovery more difficult and risky, as the chance of discovery or complications increases significantly.
 
 **Human Friends and Contacts**
 Human allies can play a significant role during downtime:
@@ -182,7 +183,7 @@ Earth presents a different kind of hazard than Cybertron. The danger comes less 
 
 **Surveillance Density**
 - Urban and suburban areas are heavily monitored by cameras, phones, satellites, and civilian reporting.
-- Stealth and low-profile movement in populated zones should generally face higher difficulty, especially at Heat 2 or above.
+- Stealth and low-profile movement in populated zones generally face higher difficulty, especially at Heat 2 or above.
 - Avoiding detection is significantly easier in remote wilderness, abandoned industrial sites, or areas with poor infrastructure.
 
 **Civilian Presence**
@@ -210,4 +211,4 @@ Use these environmental factors as tools to reinforce the constant pressure of o
 - This script activates only when the active era is War on Earth.
 - Core Rules, Energon & Condition, Combat Flow, and Stat Growth still apply.
 - Heat level and major exposure events must be tracked in the State Footer.
-- Higher Heat levels should increase the difficulty of missions, downtime, and movement in populated areas, and may force the player into difficult choices between mission success and avoiding further escalation.
+- Higher Heat levels increase the difficulty of missions, downtime, and movement in populated areas, and may force the player into difficult choices between mission success and avoiding further escalation.
