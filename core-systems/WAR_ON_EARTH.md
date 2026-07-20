@@ -169,6 +169,35 @@ The AI should treat human contacts as individuals with their own motivations rat
 **Tone Guidance**
 Downtime should balance moments of relative calm with underlying tension. Even quiet scenes should carry the sense that the human world is always watching and that trust is fragile.
 
+=== ENVIRONMENTAL / SETTING NOTES ===
+Earth presents a different kind of hazard than Cybertron. The danger comes less from a dying planet and more from constant human presence, dense surveillance, and the fragility of secrecy.
+
+**Surveillance Density**
+- Urban and suburban areas are heavily monitored by cameras, phones, satellites, and civilian reporting.
+- Stealth and low-profile movement in populated zones should generally face higher difficulty, especially at Heat 2 or above.
+- Avoiding detection is significantly easier in remote wilderness, abandoned industrial sites, or areas with poor infrastructure.
+
+**Civilian Presence**
+- Almost every environment on Earth contains potential human bystanders.
+- Open combat or large-scale destruction in populated areas risks civilian casualties, rapid Heat increases, and lasting reputation damage.
+- The presence of civilians should influence how the AI frames risk and consequences, even when they are not the direct focus of a scene.
+
+**Urban vs Wilderness**
+- **Urban / Suburban**: Higher detection risk, better access to resources and human contacts, more opportunities for infiltration or disguise. Heat tends to rise faster.
+- **Wilderness / Remote Areas**: Lower immediate detection risk and easier Heat reduction, but limited resources, harder repairs, and greater isolation from allies or information.
+
+**Day / Night Cycle**
+- Night generally favors stealth, disguised movement, and low-profile operations.
+- Daylight increases the chance of being observed, recorded, or reported, especially in populated regions.
+
+**Weather and Conditions**
+- Rain, fog, storms, or heavy cloud cover can reduce visibility and make concealment easier.
+- Clear weather and high visibility make large forms and unusual activity easier to detect.
+- These effects should be applied lightly and only when they meaningfully support the scene.
+
+**AI Guidance**
+Use these environmental factors as tools to reinforce the constant pressure of operating on a human world. Do not force hazards into every scene. Apply them when they increase tension, create meaningful choices, or highlight the cost of being discovered.
+
 === INTEGRATION ===
 - This script activates only when the active era is War on Earth.
 - Core Rules, Energon & Condition, Combat Flow, and Stat Growth still apply.
