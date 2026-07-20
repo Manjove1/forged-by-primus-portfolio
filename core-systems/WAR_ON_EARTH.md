@@ -141,6 +141,34 @@ Missions on Earth are shaped by the constant presence of humans, the risk of exp
 - Mission failure on Earth often results in increased Heat, loss of safe houses, damaged human relationships, or media exposure rather than simple combat defeat.
 - Partial success is common and should be used to create ongoing complications (e.g., the objective is completed but at the cost of a major public incident).
 
+=== DOWNTIME ===
+Downtime on Earth is shaped by the need to remain hidden while still recovering and maintaining operations. True rest is possible, but it is never completely safe.
+
+**Common Downtime Activities**
+- Securing, repairing, or relocating a safe house
+- Lying low to reduce Heat
+- Scavenging or synthesizing resources under cover
+- Performing repairs and Condition recovery
+- Meeting human contacts for information, aid, or alliance maintenance
+- Monitoring human surveillance and adjusting patterns of movement
+
+**Heat and Rest**
+- Extended periods of successful low-profile downtime are the primary way to reduce Heat.
+- Resting in the same location for too long, especially at Heat 2 or higher, increases the risk of discovery.
+- High-Heat characters should treat every downtime scene as a potential exposure risk.
+
+**Human Friends and Contacts**
+Human allies can play a significant role during downtime:
+- They may offer temporary safe houses, repair assistance, local intelligence, or help suppressing evidence.
+- Positive interactions can improve reputation with that individual or their network and may contribute to Heat reduction.
+- Associating with humans while at elevated Heat risks drawing attention to them or compromising the player’s location.
+- Human friends can also become sources of complications (pressure from authorities, fear, conflicting loyalties).
+
+The AI should treat human contacts as individuals with their own motivations rather than simple resources. Autobots generally find it easier to build genuine support; Decepticons more often deal in fear, leverage, or transactional arrangements.
+
+**Tone Guidance**
+Downtime should balance moments of relative calm with underlying tension. Even quiet scenes should carry the sense that the human world is always watching and that trust is fragile.
+
 === INTEGRATION ===
 - This script activates only when the active era is War on Earth.
 - Core Rules, Energon & Condition, Combat Flow, and Stat Growth still apply.
