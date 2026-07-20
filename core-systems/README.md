@@ -16,6 +16,7 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
 | `STAT_GROWTH_DECAY.md` | XP progression and stat changes (including recovery) | High |
 | `COMBAT_FLOW.md` | Combat resolution and tactical adjudication | High |
 | `WAR_ON_EARTH.md` | Era-specific rules for War on Earth (Heat system, Secrecy, Human Base Rules, asynchronous start) | Medium (when active era) |
+| `GOLDEN_ERA.md` | Era-specific rules for Golden Era (Facade, Prime Approval, Quintesson Subversion, caste dynamics) | Medium (when active era) |
 | `CYBERTRON_WAR.md` | Era-specific rules for Cybertron Civil War (Energon scarcity, Planetary Hazards, Faction Dynamics) | Medium (when active era) |
 
 ---
@@ -29,7 +30,7 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
    - Set it to **Always Active** / constant insertion if using World Info.
    - Give it the **highest priority** among system scripts so it loads before lore and character entries.
 
-2. **Additional Core Systems** (as they are added)
+2. **Additional Core Systems**
    - Create separate World Info or Author's Note entries for each script.
    - Keep **Core Rules** at the top of the priority order.
    - Load specialized systems (Combat, Energon, Stat Growth, Era Conditions, etc.) below Core Rules but above normal lore/character entries when possible.
