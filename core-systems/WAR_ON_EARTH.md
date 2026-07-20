@@ -105,6 +105,42 @@ Both factions begin at Heat 0.
 
 This creates a mild asynchronous start: Autobots begin with a small diplomatic advantage among humans, while Decepticons begin under greater suspicion. The difference is intentional but limited in scope.
 
+=== MISSION MODIFIERS ===
+Missions on Earth are shaped by the constant presence of humans, the risk of exposure, and the escalating consequences of Heat. The following modifiers should guide mission design and adjudication.
+
+**Preferred Mission Types**
+- Infiltration of human facilities or restricted areas
+- Extraction or protection of allies under surveillance
+- Sabotage or theft that must remain deniable
+- Suppressing evidence or controlling the narrative after an incident
+- Raids that balance speed and secrecy
+- Escort missions through populated or monitored regions
+- Negotiations or fragile cooperation with human groups
+
+**Heat-Sensitive Objectives**
+- Missions that require open combat in populated areas should carry a high risk of raising Heat.
+- Successful completion of a mission while keeping Heat gain low should be treated as a meaningful achievement and may improve standing with certain human groups.
+- High-Heat missions should feel more desperate, with fewer safe extraction options and greater human resistance.
+
+**Civilian Presence**
+- Almost all Earth environments contain potential civilian bystanders.
+- Actions that endanger or harm civilians should increase Heat and damage reputation with most human groups.
+- Protecting civilians during a mission can reduce Heat gain or improve relations, even if the primary objective is only partially completed.
+
+**Secrecy vs Force**
+- Players should frequently face a choice between quiet, limited-force approaches and faster but more exposed methods.
+- Pure assault missions are possible but should usually carry significant Heat and political consequences.
+- Clever use of disguise, timing, and environment should be rewarded with lower DCs or reduced Heat generation.
+
+**Human Involvement**
+- At low Heat, human forces may be absent, disorganized, or limited to local responders.
+- At higher Heat, human military, intelligence, or specialized units may actively interfere with the mission, create additional objectives, or cut off escape routes.
+- Temporary cooperation with human groups is possible but should remain fragile and conditional.
+
+**Failure and Complication Guidance**
+- Mission failure on Earth often results in increased Heat, loss of safe houses, damaged human relationships, or media exposure rather than simple combat defeat.
+- Partial success is common and should be used to create ongoing complications (e.g., the objective is completed but at the cost of a major public incident).
+
 === INTEGRATION ===
 - This script activates only when the active era is War on Earth.
 - Core Rules, Energon & Condition, Combat Flow, and Stat Growth still apply.
