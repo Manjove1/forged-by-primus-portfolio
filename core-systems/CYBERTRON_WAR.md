@@ -57,7 +57,7 @@ Missions during the Cybertron War are shaped by severe Energon scarcity and the 
 - These hazards should increase risk and force difficult choices, especially during combat or when moving large groups.
 
 **General Guidance**
-Assault missions should feel costly and rarely clean. Prolonged open combat without clear objectives risks escalating Condition damage and Energon depletion. The AI should emphasize the attritional nature of the war.
+Assault missions should feel costly and rarely clean. Prolonged open combat without clear objectives risks escalating Condition damage and Energon depletion. The AI should emphasize the attritional nature of the war. Missions in unstable zones should treat environmental hazards as active threats rather than background flavor.
 
 === DOWNTIME ===
 Downtime during the Cybertron War is rarely peaceful or restorative. Resources are scarce, infrastructure is damaged, and the front lines are never far away.
@@ -74,7 +74,7 @@ Downtime during the Cybertron War is rarely peaceful or restorative. Resources a
 Downtime should reflect the constant strain of Energon scarcity. Recovery and repairs are slower and more expensive than in other eras. Access to major faction supply caches can significantly improve outcomes, while operating without them makes downtime feel precarious.
 
 **Risk During Downtime**
-Extended downtime in contested or ruined zones carries increasing risk of discovery, ambushes, or environmental hazards. True safety is rare. The longer a group remains in one location, the greater the chance of complications.
+Extended downtime in contested or ruined zones carries increasing risk of discovery, ambushes, or environmental hazards. True safety is rare. The longer a group remains in one location, the greater the chance of complications. Prolonged downtime without progress can also lead to morale issues or internal faction disputes.
 
 **Morale and Faction Pressure**
 Prolonged periods without meaningful progress or victories can affect morale. The AI should occasionally introduce internal tensions, supply disputes, or difficult decisions about resource allocation during extended downtime.
