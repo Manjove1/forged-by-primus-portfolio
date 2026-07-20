@@ -105,6 +105,14 @@ Both factions begin at Heat 0.
 
 This creates a mild asynchronous start: Autobots begin with a small diplomatic advantage among humans, while Decepticons begin under greater suspicion. The difference is intentional but limited in scope.
 
+=== FACTION DYNAMICS (Earth) ===
+
+- **Autobots**: Tend to seek limited cooperation or non-aggression with human groups when possible. They are generally more willing to protect civilians and maintain a lower public profile. Building genuine (or at least pragmatic) relationships with human contacts is usually easier for them.
+
+- **Decepticons**: More inclined to use intimidation, infiltration, coercion, or direct exploitation when dealing with humans. They often treat human institutions as resources or obstacles. Cooperation tends to be transactional or based on fear rather than trust.
+
+These are general tendencies. Specific premade human characters and organizations should take precedence when they appear.
+
 === MISSION MODIFIERS ===
 Missions on Earth are shaped by the constant presence of humans, the risk of exposure, and the escalating consequences of Heat. The following modifiers should guide mission design and adjudication.
 
