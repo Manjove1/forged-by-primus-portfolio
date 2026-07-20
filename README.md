@@ -100,8 +100,15 @@ forged-by-primus-portfolio/
 │   ├── TECHNICAL_SYSTEMS.md
 │   ├── PROMPT_SAMPLES.md
 │   └── ANALYTICS_AND_RESULTS.md
-└── core-systems/          # Overarching mechanics & setting (in progress)
-    └── README.md
+└── core-systems/          # Overarching mechanics & setting (finalized core systems)
+    ├── README.md
+    ├── CORE_RULES.md
+    ├── SESSION_MANAGEMENT_SAFETY.md
+    ├── ENERGON_CONDITION.md
+    ├── STAT_GROWTH_DECAY.md
+    ├── COMBAT_FLOW.md
+    ├── WAR_ON_EARTH.md
+    └── CYBERTRON_WAR.md
 ```
 
 ---

@@ -11,8 +11,12 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
 | File | Purpose | Priority Recommendation |
 |------|---------|-------------------------|
 | `CORE_RULES.md` | Central orchestrator / director | Highest (load first) |
-
-*Additional systems (Session Management, Energon & Condition, Stat Growth, Combat Flow, Era Conditions, etc.) will be added here as they are finalized.*
+| `SESSION_MANAGEMENT_SAFETY.md` | End-of-session handling, ReZero recovery, and summary integrity protocols | High |
+| `ENERGON_CONDITION.md` | Energon resource and Condition ladder system | High |
+| `STAT_GROWTH_DECAY.md` | XP progression and stat changes (including recovery) | High |
+| `COMBAT_FLOW.md` | Combat resolution and tactical adjudication | High |
+| `WAR_ON_EARTH.md` | Era-specific rules for War on Earth (Heat system, Secrecy, Human Base Rules, asynchronous start) | Medium (when active era) |
+| `CYBERTRON_WAR.md` | Era-specific rules for Cybertron Civil War (Energon scarcity, Planetary Hazards, Faction Dynamics) | Medium (when active era) |
 
 ---
 
@@ -28,7 +32,7 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
 2. **Additional Core Systems** (as they are added)
    - Create separate World Info or Author's Note entries for each script.
    - Keep **Core Rules** at the top of the priority order.
-   - Load specialized systems (Combat, Energon, Era Conditions, etc.) below Core Rules but above normal lore/character entries when possible.
+   - Load specialized systems (Combat, Energon, Stat Growth, Era Conditions, etc.) below Core Rules but above normal lore/character entries when possible.
 
 3. **General Tips**
    - Prefer World Info / Lorebook entries with clear keys when you want conditional activation.
@@ -39,7 +43,7 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
 
 1. Core Rules (Orchestrator)
 2. Session Management & Safety
-3. Active Era Special Conditions
+3. Active Era Special Conditions (Cybertron War, War on Earth, Golden Era)
 4. Combat / Energon / Stat Growth systems
 5. Lore Book & character/faction entries
 
