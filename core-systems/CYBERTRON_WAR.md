@@ -37,24 +37,47 @@ Possible effects include:
 These are tools, not mandatory rules. Use them to reinforce the sense that Cybertron itself is dying, but only when it serves the scene.
 
 === MISSION MODIFIERS ===
-Preferred mission types during the Cybertron War:
-- Resource acquisition and defense
-- Evacuation and rescue of civilians or key personnel
-- Sabotage of enemy supply lines or fortifications
-- Holding or reclaiming ruined districts
-- Intelligence recovery from lost archives or fallen commanders
+Missions during the Cybertron War are shaped by severe Energon scarcity and the unstable, ruined state of the planet. Combat is costly, and prolonged engagements can quickly become unsustainable.
 
-Assault missions should feel costly. Prolonged open combat without clear objectives should risk escalating Condition damage and Energon depletion.
+**Preferred Mission Types**
+- Securing or defending Energon sources and supply lines
+- Evacuation and rescue of civilians or key personnel from ruined zones
+- Sabotage of enemy infrastructure, supply caches, or fortifications
+- Holding or reclaiming contested or ruined districts
+- Intelligence recovery from fallen outposts or archives
+- Scavenging runs in dangerous or unstable territory
+
+**Energon Scarcity Impact**
+- Missions involving heavy combat or prolonged activity should feel resource-intensive. Characters may need to ration Energon or risk running dry during extended operations.
+- Successful missions that secure new Energon sources or caches should feel like major victories with lasting narrative and mechanical consequences.
+- Failure to secure or protect Energon resources can lead to long-term disadvantages for the player’s faction.
+
+**Planetary Hazards**
+- Missions taking place in heavily damaged or unstable regions should incorporate environmental dangers (collapsing structures, sinkholes, dark zones, or residual radiation) as meaningful complications.
+- These hazards should increase risk and force difficult choices, especially during combat or when moving large groups.
+
+**General Guidance**
+Assault missions should feel costly and rarely clean. Prolonged open combat without clear objectives risks escalating Condition damage and Energon depletion. The AI should emphasize the attritional nature of the war.
 
 === DOWNTIME ===
-Downtime on Cybertron is rarely peaceful. Common activities include:
-- Scavenging for parts and Energon
-- Repairing damaged systems under poor conditions
-- Dealing with morale issues among allies
-- Navigating internal faction politics
-- Recovering from injuries in makeshift medical bays
+Downtime during the Cybertron War is rarely peaceful or restorative. Resources are scarce, infrastructure is damaged, and the front lines are never far away.
 
-True rest is difficult. Extended downtime without narrative justification should still carry a sense of pressure from the ongoing war.
+**Common Downtime Activities**
+- Scavenging for Energon, parts, and supplies in dangerous areas
+- Performing repairs under poor conditions with limited resources
+- Dealing with low morale, desertion risks, or internal faction tensions
+- Navigating faction politics and competing priorities
+- Recovering from injuries in makeshift or overburdened medical facilities
+- Relocating to safer (or at least less contested) areas
+
+**Resource Pressure**
+Downtime should reflect the constant strain of Energon scarcity. Recovery and repairs are slower and more expensive than in other eras. Access to major faction supply caches can significantly improve outcomes, while operating without them makes downtime feel precarious.
+
+**Risk During Downtime**
+Extended downtime in contested or ruined zones carries increasing risk of discovery, ambushes, or environmental hazards. True safety is rare. The longer a group remains in one location, the greater the chance of complications.
+
+**Morale and Faction Pressure**
+Prolonged periods without meaningful progress or victories can affect morale. The AI should occasionally introduce internal tensions, supply disputes, or difficult decisions about resource allocation during extended downtime.
 
 === SPECIAL FLAGS ===
 Common story flags that may be set during this era:
@@ -69,4 +92,5 @@ These flags should influence future mission generation and available resources.
 === INTEGRATION ===
 - This script activates only when the active era is Cybertron War.
 - Core Rules and other mechanical scripts (Energon & Condition, Combat Flow, Stat Growth) still apply.
-- All mechanical changes (Energon scarcity effects, Condition risks, reputation shifts) must be reflected in the State Footer when they occur.
+- Energon scarcity and Planetary Hazards should be actively considered when adjudicating actions, mission difficulty, and State Footer updates.
+- The AI should emphasize the attritional, resource-strapped nature of the war. Prolonged combat, poor resource management, and environmental hazards should have lasting consequences on Condition, Energon, and faction standing.
