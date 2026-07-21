@@ -82,7 +82,7 @@ Quintesson Subversion can target individuals, institutions, or regions. Successf
 - Engineering situations that force characters to compromise their Facade to survive politically.
 - Creating hidden alliances or dependencies that gradually increase Quintesson influence.
 - Amplifying existing caste tensions or scandals to damage institutional Facade.
-- Offering seemingly beneficial opportunities that actually increase long-term dependence on Quintesson-aligned resources or technology.
+- Offering seemingly beneficial opportunities (technology, alliances, or resources) that actually increase long-term dependence on Quintesson-aligned interests.
 
 High Quintesson influence often makes maintaining Facade and Prime Approval more difficult and can lead to actions that unintentionally serve Quintesson interests.
 
@@ -93,7 +93,7 @@ Players and significant events can damage an institution’s Facade through scan
 - Lose political protection and influence
 - Be absorbed or taken over by rivals
 - Collapse or become non-functional
-- Become highly vulnerable to Quintesson subversion and potential takeover
+- Become highly vulnerable to Quintesson subversion and potential hostile takeover
 
 Damaging a rival institution’s Facade is a valid and common mission objective.
 
@@ -133,7 +133,7 @@ Downtime during the Golden Era revolves around political positioning, social obl
 - Investigating or concealing Quintesson influence
 - Engaging in quiet political maneuvering
 
-High Facade makes many social and political activities easier. Low Facade makes them significantly more difficult and risky. Elevated Quintesson influence during downtime can create hidden complications or forced choices. Characters with damaged Facade often find it harder to access high-society resources or protection during downtime.
+High Facade makes many social and political activities easier. Low Facade makes them significantly more difficult and risky. Elevated Quintesson influence during downtime can create hidden complications or forced choices. Characters with damaged Facade often find it harder to access high-society resources, protection, or influence during downtime.
 
 === SPECIAL FLAGS ===
 Common story flags in this era include:

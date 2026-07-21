@@ -49,19 +49,19 @@ Missions during the Cybertron War are defined by severe Energon scarcity, widesp
 
 **Energon Scarcity as a Core Pressure**
 - Heavy combat or extended operations should force players to manage limited Energon reserves. Running low mid-mission creates tense, high-stakes decisions.
-- Successful missions that secure new Energon sources should feel like major turning points with lasting benefits for the faction.
+- Successful missions that secure new Energon sources or caches should feel like major turning points with lasting benefits for the faction.
 - Failure to protect or acquire Energon often leads to long-term disadvantages, reduced capabilities in future missions, and internal faction tension.
 
 **Planetary Hazards as Active Complications**
-- Missions in heavily damaged areas should treat environmental dangers (collapsing structures, sinkholes, dark zones, radiation) as dynamic threats that can interrupt plans, separate allies, or create new objectives (e.g., rescue trapped allies).
-- Hazards should interact with Energon scarcity — damaged terrain may make resource recovery harder or more dangerous.
+- Missions in heavily damaged or unstable areas should treat environmental dangers (collapsing structures, sinkholes, dark zones, radiation) as dynamic threats that can interrupt plans, separate allies, or create new objectives (e.g., rescue trapped allies or recover lost resources).
+- Hazards should interact with Energon scarcity — damaged terrain often makes resource recovery harder, more dangerous, or more time-consuming.
 
 **Faction-Specific Flavor**
-- **Autobot missions** often involve protecting civilians or infrastructure, making them more defensive and morally weighted.
-- **Decepticon missions** tend toward aggressive strikes and resource seizure, with higher tolerance for collateral damage but harsher internal consequences for failure.
+- **Autobot missions** often involve protecting civilians or critical infrastructure, making them more defensive, morally weighted, and focused on preservation.
+- **Decepticon missions** tend toward aggressive strikes, resource seizure, and high-risk operations, with higher tolerance for collateral damage but harsher internal consequences for failure.
 
 **General Guidance**
-Assault missions should feel costly and rarely decisive. Prolonged open combat without clear objectives risks severe Condition damage and Energon depletion. The AI should emphasize the grinding, desperate nature of the war. Environmental hazards should feel like an active third party in many missions.
+Assault missions should feel costly and rarely decisive. Prolonged open combat without clear objectives risks severe Condition damage and Energon depletion. The AI should emphasize the grinding, desperate, and attritional nature of the war. Environmental hazards should feel like an active third party rather than background flavor.
 
 === DOWNTIME ===
 Downtime during the Cybertron War is never truly safe or restorative. It is a tense period of recovery under constant threat, defined by resource scarcity and the psychological toll of prolonged conflict.
@@ -81,7 +81,7 @@ Recovery and repairs are significantly slower and more expensive due to Energon 
 Extended downtime in contested or ruined areas carries growing risk of discovery, ambushes, or environmental disasters. The longer a group stays in one place, the higher the chance of complications. Planetary hazards can strike during downtime, forcing emergency responses.
 
 **Morale and Faction Dynamics**
-Prolonged periods without victories or meaningful progress can erode morale. The AI should occasionally introduce internal tensions, debates over resource distribution, or difficult decisions about whether to take risky actions to secure supplies. Autobot groups may focus more on protecting what remains, while Decepticon groups may push for aggressive resource grabs even at high risk.
+Prolonged periods without victories or meaningful progress can erode morale. The AI should occasionally introduce internal tensions, debates over resource distribution, or difficult decisions about whether to take risky actions to secure supplies. Autobot groups may focus more on protecting what remains and maintaining morale, while Decepticon groups may push for aggressive resource grabs even at high personal or operational risk.
 
 **General Guidance**
 Downtime should feel like an extension of the war rather than a break from it. True safety is rare, and every choice carries potential long-term consequences for resources, morale, and faction standing.
