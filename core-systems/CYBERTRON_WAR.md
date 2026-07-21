@@ -37,47 +37,54 @@ Possible effects include:
 These are tools, not mandatory rules. Use them to reinforce the sense that Cybertron itself is dying, but only when it serves the scene.
 
 === MISSION MODIFIERS ===
-Missions during the Cybertron War are shaped by severe Energon scarcity and the unstable, ruined state of the planet. Combat is costly, and prolonged engagements can quickly become unsustainable.
+Missions during the Cybertron War are defined by severe Energon scarcity, widespread planetary destruction, and the grinding attrition of a centuries-long civil war. Every action carries a cost, and success often feels pyrrhic.
 
 **Preferred Mission Types**
-- Securing or defending Energon sources and supply lines
-- Evacuation and rescue of civilians or key personnel from ruined zones
-- Sabotage of enemy infrastructure, supply caches, or fortifications
-- Holding or reclaiming contested or ruined districts
-- Intelligence recovery from fallen outposts or archives
-- Scavenging runs in dangerous or unstable territory
+- Securing, defending, or raiding Energon caches and supply lines (high priority for both factions)
+- Evacuation of civilians or critical personnel from collapsing or contested zones
+- Sabotage of enemy fortifications, factories, or logistics hubs
+- Holding or retaking ruined districts under constant pressure
+- Intelligence operations in unstable or hazardous ruins
+- Scavenging runs into dangerous territory for parts and resources
 
-**Energon Scarcity Impact**
-- Missions involving heavy combat or prolonged activity should feel resource-intensive. Characters may need to ration Energon or risk running dry during extended operations.
-- Successful missions that secure new Energon sources or caches should feel like major victories with lasting narrative and mechanical consequences.
-- Failure to secure or protect Energon resources can lead to long-term disadvantages for the player’s faction.
+**Energon Scarcity as a Core Pressure**
+- Heavy combat or extended operations should force players to manage limited Energon reserves. Running low mid-mission creates tense, high-stakes decisions.
+- Successful missions that secure new Energon sources should feel like major turning points with lasting benefits for the faction.
+- Failure to protect or acquire Energon often leads to long-term disadvantages, reduced capabilities in future missions, and internal faction tension.
 
-**Planetary Hazards**
-- Missions taking place in heavily damaged or unstable regions should incorporate environmental dangers (collapsing structures, sinkholes, dark zones, or residual radiation) as meaningful complications.
-- These hazards should increase risk and force difficult choices, especially during combat or when moving large groups.
+**Planetary Hazards as Active Complications**
+- Missions in heavily damaged areas should treat environmental dangers (collapsing structures, sinkholes, dark zones, radiation) as dynamic threats that can interrupt plans, separate allies, or create new objectives (e.g., rescue trapped allies).
+- Hazards should interact with Energon scarcity — damaged terrain may make resource recovery harder or more dangerous.
+
+**Faction-Specific Flavor**
+- **Autobot missions** often involve protecting civilians or infrastructure, making them more defensive and morally weighted.
+- **Decepticon missions** tend toward aggressive strikes and resource seizure, with higher tolerance for collateral damage but harsher internal consequences for failure.
 
 **General Guidance**
-Assault missions should feel costly and rarely clean. Prolonged open combat without clear objectives risks escalating Condition damage and Energon depletion. The AI should emphasize the attritional nature of the war. Missions in unstable zones should treat environmental hazards as active threats rather than background flavor.
+Assault missions should feel costly and rarely decisive. Prolonged open combat without clear objectives risks severe Condition damage and Energon depletion. The AI should emphasize the grinding, desperate nature of the war. Environmental hazards should feel like an active third party in many missions.
 
 === DOWNTIME ===
-Downtime during the Cybertron War is rarely peaceful or restorative. Resources are scarce, infrastructure is damaged, and the front lines are never far away.
+Downtime during the Cybertron War is never truly safe or restorative. It is a tense period of recovery under constant threat, defined by resource scarcity and the psychological toll of prolonged conflict.
 
 **Common Downtime Activities**
-- Scavenging for Energon, parts, and supplies in dangerous areas
-- Performing repairs under poor conditions with limited resources
-- Dealing with low morale, desertion risks, or internal faction tensions
-- Navigating faction politics and competing priorities
-- Recovering from injuries in makeshift or overburdened medical facilities
-- Relocating to safer (or at least less contested) areas
+- Scavenging for Energon, spare parts, and supplies in hazardous ruins
+- Performing difficult repairs with limited tools and resources
+- Managing low morale, desertion risks, and internal faction politics
+- Treating injuries in overburdened or makeshift medical facilities
+- Relocating bases or hiding from enemy patrols
+- Attempting to secure or defend limited supply lines
 
-**Resource Pressure**
-Downtime should reflect the constant strain of Energon scarcity. Recovery and repairs are slower and more expensive than in other eras. Access to major faction supply caches can significantly improve outcomes, while operating without them makes downtime feel precarious.
+**Resource and Energon Pressure**
+Recovery and repairs are significantly slower and more expensive due to Energon scarcity. Access to major faction supply depots greatly improves outcomes, while operating without them makes downtime feel desperate and risky. Players should frequently face hard choices about resource allocation.
 
-**Risk During Downtime**
-Extended downtime in contested or ruined zones carries increasing risk of discovery, ambushes, or environmental hazards. True safety is rare. The longer a group remains in one location, the greater the chance of complications. Prolonged downtime without progress can also lead to morale issues or internal faction disputes.
+**Risk and Environmental Pressure**
+Extended downtime in contested or ruined areas carries growing risk of discovery, ambushes, or environmental disasters. The longer a group stays in one place, the higher the chance of complications. Planetary hazards can strike during downtime, forcing emergency responses.
 
-**Morale and Faction Pressure**
-Prolonged periods without meaningful progress or victories can affect morale. The AI should occasionally introduce internal tensions, supply disputes, or difficult decisions about resource allocation during extended downtime.
+**Morale and Faction Dynamics**
+Prolonged periods without victories or meaningful progress can erode morale. The AI should occasionally introduce internal tensions, debates over resource distribution, or difficult decisions about whether to take risky actions to secure supplies. Autobot groups may focus more on protecting what remains, while Decepticon groups may push for aggressive resource grabs even at high risk.
+
+**General Guidance**
+Downtime should feel like an extension of the war rather than a break from it. True safety is rare, and every choice carries potential long-term consequences for resources, morale, and faction standing.
 
 === SPECIAL FLAGS ===
 Common story flags that may be set during this era:
@@ -93,4 +100,4 @@ These flags should influence future mission generation and available resources.
 - This script activates only when the active era is Cybertron War.
 - Core Rules and other mechanical scripts (Energon & Condition, Combat Flow, Stat Growth) still apply.
 - Energon scarcity and Planetary Hazards should be actively considered when adjudicating actions, mission difficulty, and State Footer updates.
-- The AI should emphasize the attritional, resource-strapped nature of the war. Prolonged combat, poor resource management, and environmental hazards should have lasting consequences on Condition, Energon, and faction standing.
+- The AI should emphasize the attritional, resource-strapped, and desperate nature of the war. Prolonged combat, poor resource management, and environmental hazards should have lasting consequences on Condition, Energon, morale, and faction standing.
