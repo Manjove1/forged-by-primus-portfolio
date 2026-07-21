@@ -49,6 +49,7 @@ The system uses a layered, modular design:
 | **Combat, Conditions & Growth** | Mechanical systems for combat resolution, condition tracking, and progression. |
 | **Session Management & Safety** | End-of-session handling, ReZero recovery, and summary integrity protocols. |
 | **Era Special Conditions** | Era-specific mechanical and narrative rules (Golden Era, Cybertron War, War on Earth). |
+| **Casting Rules** | Character casting philosophy, Core Cast management, canon/supporing character handling, and token efficiency measures. |
 
 The Core Rules script functions as a director rather than a complete rulebook. It activates detailed systems only when needed, improving both control and token efficiency.
 
@@ -91,6 +92,7 @@ All core mechanical and era-specific systems have been completed and polished:
 - Energon & Condition
 - Stat Growth & Decay
 - Combat Flow
+- Casting Rules (Core Cast management, canon handling, and anti-bloat measures)
 - Three fully developed era scripts (Golden Era, Cybertron War, War on Earth)
 
 ---
@@ -105,7 +107,7 @@ forged-by-primus-portfolio/
 │   ├── CASE_STUDY.md
 │   ├── TECHNICAL_SYSTEMS.md
 │   ├── PROMPT_SAMPLES.md
-│   └── ANALYTICS_AND_RESULTS.md
+│   ├── ANALYTICS_AND_RESULTS.md
 └── core-systems/          # Overarching mechanics & setting (complete)
     ├── README.md
     ├── CORE_RULES.md
@@ -113,6 +115,7 @@ forged-by-primus-portfolio/
     ├── ENERGON_CONDITION.md
     ├── STAT_GROWTH_DECAY.md
     ├── COMBAT_FLOW.md
+    ├── CASTING_RULES.md
     ├── WAR_ON_EARTH.md
     ├── GOLDEN_ERA.md
     └── CYBERTRON_WAR.md
