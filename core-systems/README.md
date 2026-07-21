@@ -15,6 +15,7 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
 | `ENERGON_CONDITION.md` | Energon resource and Condition ladder system | High |
 | `STAT_GROWTH_DECAY.md` | XP progression and stat changes (including recovery) | High |
 | `COMBAT_FLOW.md` | Combat resolution and tactical adjudication | High |
+| `CASTING_RULES.md` | Character casting philosophy, Core Cast management, canon character handling, and anti-bloat measures | High (consult when introducing characters) |
 | `WAR_ON_EARTH.md` | Era-specific rules for War on Earth (Heat system, Secrecy, Human Base Rules, asynchronous start) | Medium (when active era) |
 | `GOLDEN_ERA.md` | Era-specific rules for Golden Era (Facade, Prime Approval, Quintesson Subversion, caste dynamics) | Medium (when active era) |
 | `CYBERTRON_WAR.md` | Era-specific rules for Cybertron Civil War (Energon scarcity, Planetary Hazards, Faction Dynamics) | Medium (when active era) |
@@ -33,7 +34,7 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
 2. **Additional Core Systems**
    - Create separate World Info or Author's Note entries for each script.
    - Keep **Core Rules** at the top of the priority order.
-   - Load specialized systems (Combat, Energon, Stat Growth, Era Conditions, etc.) below Core Rules but above normal lore/character entries when possible.
+   - Load specialized systems (Combat, Energon, Stat Growth, Casting Rules, Era Conditions, etc.) below Core Rules but above normal lore/character entries when possible.
 
 3. **General Tips**
    - Prefer World Info / Lorebook entries with clear keys when you want conditional activation.
@@ -45,8 +46,9 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
 1. Core Rules (Orchestrator)
 2. Session Management & Safety
 3. Active Era Special Conditions (Cybertron War, War on Earth, Golden Era)
-4. Combat / Energon / Stat Growth systems
-5. Lore Book & character/faction entries
+4. Casting Rules
+5. Combat / Energon / Stat Growth systems
+6. Lore Book & character/faction entries
 
 ---
 
