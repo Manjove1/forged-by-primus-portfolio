@@ -33,7 +33,8 @@ Priority when multiple triggers apply (resolve in this order):
 1. State Footer
 2. ReZero / Summary Integrity
 3. Era-specific rules
-4. Normal response
+4. Casting Rules
+5. Normal response
 
 Major triggers:
 - After combat, Condition change, or Energon change → Append State Footer
@@ -43,6 +44,7 @@ Major triggers:
 - When current era = Golden Era → [CALL: Golden Era Special Conditions]
 - When current era = Cybertron War → [CALL: Cybertron War Special Conditions]
 - When current era = War on Earth → [CALL: War on Earth Special Conditions]
+- When introducing new characters, deciding who appears in a scene, or making casting decisions → [CALL: Casting Rules]
 
 === STATE FOOTER (Self-Healing Anchor) ===
 After any combat encounter, Condition change, Energon spend/restore, or every 5th response during downtime/exploration, append this footer at the very end of the response:
