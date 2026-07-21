@@ -36,7 +36,7 @@ Dice are used only for player actions that involve meaningful risk. NPCs express
 Narrative outcome tiers were selected to preserve story flow and dramatic interest while still providing mechanical structure.
 
 === STATE FOOTER UPDATES ===
-All changes to Energon or Condition that occur during combat must be reflected in the State Footer at the end of the combat encounter (or immediately if the change is significant).
+All changes to Energon or Condition that occur during combat must be reflected in the State Footer. After resolving combat, explicitly request the State Footer using the format: [CALL: Core Rules - State Footer] so that all mechanical changes are properly recorded and visible.
 
 === INTEGRATION ===
 - This script activates during combat or high-risk physical confrontations.

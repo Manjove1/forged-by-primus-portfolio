@@ -45,6 +45,7 @@ Major triggers:
 - When current era = Cybertron War → [CALL: Cybertron War Special Conditions]
 - When current era = War on Earth → [CALL: War on Earth Special Conditions]
 - When introducing new characters, deciding who appears in a scene, or making casting decisions → [CALL: Casting Rules]
+- At the start of major scenes or when the AI is about to introduce or decide on characters → [CALL: Casting Rules]
 
 === STATE FOOTER (Self-Healing Anchor) ===
 After any combat encounter, Condition change, Energon spend/restore, or every 5th response during downtime/exploration, append this footer at the very end of the response:
