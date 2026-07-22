@@ -58,6 +58,7 @@ The project focuses on a practical problem in long-form AI roleplay: keeping str
 ```text
 forged-by-primus-portfolio/
 ├── README.md
+├── LICENSE
 ├── docs/
 │   ├── PERSONAL_STATEMENT.md
 │   ├── CASE_STUDY.md
@@ -103,6 +104,24 @@ forged-by-primus-portfolio/
 - [Technical Systems Documentation](docs/TECHNICAL_SYSTEMS.md)
 - [Prompt Samples](docs/PROMPT_SAMPLES.md)
 - [Analytics & Results Summary](docs/ANALYTICS_AND_RESULTS.md)
+
+---
+
+## License
+
+Original systems design, prompt architecture, documentation, and other original content in this repository are licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Manjove
+
+---
+
+## Intellectual Property Notice
+
+*Transformers* and all related characters, names, settings, and distinctive likenesses are trademarks and/or copyrighted property of Hasbro, TakaraTomy, and/or their respective owners.
+
+This project is an **unofficial, non-commercial fan and portfolio work**. It is not affiliated with, endorsed by, or sponsored by Hasbro, TakaraTomy, Paramount, or any official *Transformers* rights holder.
+
+The MIT License applies **only** to original systems design, prompt architecture, documentation, and other original content created for this repository. It does **not** grant any rights to third-party intellectual property.
 
 ---
 
