@@ -1,6 +1,6 @@
-# Decepticon Frontline
+# Autobot: Earth Resistance
 
-Primary combat personnel who commonly appear in active field operations and direct engagements.
+Autobot characters and cells specifically focused on operations on Earth. This category is most relevant during the War on Earth era.
 
 ---
 
@@ -9,8 +9,8 @@ Primary combat personnel who commonly appear in active field operations and dire
 ```text
 ### [Character Name]
 
-**Role / Tier:** Decepticon – Frontline  
-**Era Availability:**  
+**Role / Tier:** Autobot – Earth Resistance  
+**Era Availability:** War on Earth (primarily)  
 **Alt-Mode:**  
 **Stats (1–10):** STR: | SPD: | END: | FIRE: | INT: | SKL: | COU:
 

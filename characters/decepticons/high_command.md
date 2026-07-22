@@ -1,8 +1,6 @@
 # Decepticon High Command
 
-This file contains premade Decepticon characters who operate at the strategic / high-command level.
-
-These characters should only be introduced when the narrative specifically requires high-level authority, major faction decisions, or significant strategic presence.
+Strategic leaders and high-level decision makers. These characters should appear infrequently and with significant narrative weight.
 
 ---
 
@@ -10,12 +8,27 @@ These characters should only be introduced when the narrative specifically requi
 
 ```text
 ### [Character Name]
-**Role / Tier:** Decepticon High Command
-**Era Availability:** 
-**Short Description:** 
-**Voice Notes:** 
-**Key Relationships:** 
-**When to Use:** 
+
+**Role / Tier:** Decepticon – High Command  
+**Era Availability:**  
+**Alt-Mode:**  
+**Stats (1–10):** STR: | SPD: | END: | FIRE: | INT: | SKL: | COU:
+
+**Personality & Voice:**  
+
+**Combat / Action Style:**  
+
+**Key Relationships:**  
+
+**Hidden Agenda / Pressure Point:**  
+
+**When to Use:**  
+
+**AI Notes:**  
+- Never speak, act, or think for {{user}}.  
+- Stay consistent with the voice and personality above.  
+- When describing this character in action, use at least two non-visual senses.  
+- Prefer this character only when they serve a clear narrative purpose.
 ```
 
 ---

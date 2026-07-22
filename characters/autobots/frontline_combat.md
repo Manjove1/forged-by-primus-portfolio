@@ -1,4 +1,4 @@
-# Decepticon Frontline
+# Autobot Frontline Combat
 
 Primary combat personnel who commonly appear in active field operations and direct engagements.
 
@@ -9,7 +9,7 @@ Primary combat personnel who commonly appear in active field operations and dire
 ```text
 ### [Character Name]
 
-**Role / Tier:** Decepticon – Frontline  
+**Role / Tier:** Autobot – Frontline Combat  
 **Era Availability:**  
 **Alt-Mode:**  
 **Stats (1–10):** STR: | SPD: | END: | FIRE: | INT: | SKL: | COU:

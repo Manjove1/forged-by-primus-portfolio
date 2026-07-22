@@ -1,6 +1,6 @@
-# Decepticon Frontline
+# Decepticon Support & Logistics
 
-Primary combat personnel who commonly appear in active field operations and direct engagements.
+Repair, supply, communications, intelligence support, and general logistics roles.
 
 ---
 
@@ -9,7 +9,7 @@ Primary combat personnel who commonly appear in active field operations and dire
 ```text
 ### [Character Name]
 
-**Role / Tier:** Decepticon – Frontline  
+**Role / Tier:** Decepticon – Support & Logistics  
 **Era Availability:**  
 **Alt-Mode:**  
 **Stats (1–10):** STR: | SPD: | END: | FIRE: | INT: | SKL: | COU:

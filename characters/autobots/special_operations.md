@@ -1,6 +1,6 @@
-# Decepticon Frontline
+# Autobot Special Operations
 
-Primary combat personnel who commonly appear in active field operations and direct engagements.
+Covert, infiltration, sabotage, reconnaissance, and high-skill specialist roles.
 
 ---
 
@@ -9,7 +9,7 @@ Primary combat personnel who commonly appear in active field operations and dire
 ```text
 ### [Character Name]
 
-**Role / Tier:** Decepticon – Frontline  
+**Role / Tier:** Autobot – Special Operations  
 **Era Availability:**  
 **Alt-Mode:**  
 **Stats (1–10):** STR: | SPD: | END: | FIRE: | INT: | SKL: | COU:

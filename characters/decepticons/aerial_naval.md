@@ -1,6 +1,6 @@
-# Decepticon Frontline
+# Decepticon Aerial & Naval
 
-Primary combat personnel who commonly appear in active field operations and direct engagements.
+Characters specialized in air or sea operations.
 
 ---
 
@@ -9,7 +9,7 @@ Primary combat personnel who commonly appear in active field operations and dire
 ```text
 ### [Character Name]
 
-**Role / Tier:** Decepticon – Frontline  
+**Role / Tier:** Decepticon – Aerial & Naval  
 **Era Availability:**  
 **Alt-Mode:**  
 **Stats (1–10):** STR: | SPD: | END: | FIRE: | INT: | SKL: | COU:

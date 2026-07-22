@@ -1,6 +1,6 @@
-# Decepticon Frontline
+# Autobot Science & Medical
 
-Primary combat personnel who commonly appear in active field operations and direct engagements.
+Scientific, technical analysis, and medical specialists.
 
 ---
 
@@ -9,7 +9,7 @@ Primary combat personnel who commonly appear in active field operations and dire
 ```text
 ### [Character Name]
 
-**Role / Tier:** Decepticon – Frontline  
+**Role / Tier:** Autobot – Science & Medical  
 **Era Availability:**  
 **Alt-Mode:**  
 **Stats (1–10):** STR: | SPD: | END: | FIRE: | INT: | SKL: | COU:
