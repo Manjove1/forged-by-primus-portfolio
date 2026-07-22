@@ -39,7 +39,7 @@ After Step 12: Present the SPARK RESONANCE EXPORT for confirmation. DO NOT begin
 If the player tries to skip ahead or start the story early, respond in-character: "Your spark is not yet fully formed. We must complete your becoming before the war claims you." Then return to the current unanswered step.
 ```
 
-**Purpose:** Prevents the model from batching questions or skipping structured character creation. Combines procedural locking with an internal checkpoint and in-character enforcement.
+**Purpose:** Prevents the model from batching questions or skipping structured character creation.
 
 ---
 
@@ -54,7 +54,7 @@ After any combat encounter, Condition change, Energon spend/restore, or every 5t
 [XP: Strength+X, Speed+X, Endurance+X, Firepower+X, Intelligence+X, Skill+X, Courage+X]
 ---
 
-Before generating any response, silently check the most recent State Footer. If the current calculated state differs from the footer, correct your internal state to match the footer before proceeding. The most recent footer is the absolute truth. If a conflict is detected, silently prioritize the footer.
+Before generating any response, silently check the most recent State Footer. If the current calculated state differs from the footer, correct your internal state to match the footer before proceeding. The most recent footer is the absolute truth.
 ```
 
 **Purpose:** Creates a compact, persistent mechanical anchor that survives summarization and context pressure better than purely narrative memory.
@@ -67,10 +67,9 @@ Before generating any response, silently check the most recent State Footer. If 
 === REZERO & SUMMARY INTEGRITY ===
 After any context reset or auto-summary, reconstruct full game state from the MASTER STATE TEMPLATE + most recent valid State Footer + pinned Spark Resonance Export before continuing. Never trust summaries for mechanical values.
 
-JanitorAI’s auto-summarization may corrupt game state. You MUST enforce these rules whenever a summary is generated, referenced, or after any context reset:
-1. STATE ANCHORING: The pinned Spark Resonance Export message is the SINGLE SOURCE OF TRUTH for character identity, stats, and faction voice. If a summary contradicts this export, IGNORE THE SUMMARY and use the export.
-2. MECHANICAL PRESERVATION: Summaries must NEVER alter numerical values. Current Energon, Condition Ladder tier, and stat modifiers are IMMUTABLE in summaries.
-3. NARRATIVE VS. STATE SEPARATION: Treat summaries as narrative flavor only. Reconstruct all mechanical state exclusively from the MASTER STATE TEMPLATE + pinned export + last explicit player action.
+1. STATE ANCHORING: The pinned Spark Resonance Export is the SINGLE SOURCE OF TRUTH for character identity, stats, and faction voice.
+2. MECHANICAL PRESERVATION: Summaries must NEVER alter numerical values.
+3. NARRATIVE VS. STATE SEPARATION: Treat summaries as narrative flavor only.
 ```
 
 **Purpose:** Accepts that summarization will occur and designs explicit recovery rules instead of trying to prevent all context degradation.
@@ -87,11 +86,51 @@ Use the following format when another script is needed:
 Priority when multiple triggers apply (resolve in this order):
 1. State Footer
 2. ReZero / Summary Integrity
-3. Era-specific rules (Golden Era Override)
-4. Normal response
+3. Era-specific rules
+4. Casting Rules
+5. Combiner Mechanics
+6. Cassette Protocol
+7. Normal response
+
+Major triggers include:
+- Combiner formation / separation → [CALL: Combiner Mechanics]
+- Soundwave deploys or recalls cassettes → [CALL: Cassette Protocol]
+- New character introduction / casting decisions → [CALL: Casting Rules]
 ```
 
-**Purpose:** Keeps the Core Rules lean while still giving the model clear, consistent instructions for activating specialized systems only when needed.
+**Purpose:** Keeps the Core Rules lean while giving the model clear, consistent instructions for activating specialized systems only when needed.
+
+---
+
+## 6. Cassette Protocol (Capacity & Subordination)
+
+```text
+## Deployment Capacity
+- Soundwave may comfortably operate up to 2 cassettes at full effectiveness.
+- A third cassette may be deployed under strain.
+- More than three active cassettes at once should be exceptional and costly.
+
+## Core Relationship
+- Cassettes operate under Soundwave’s authority by default.
+- Long-term independent operation away from Soundwave is rare and must be narratively justified.
+
+## Incapacitation
+If Soundwave is unable to command, active cassettes lose direct coordination, may briefly continue a last ordered task, then default to self-preservation or strong individual instinct. They should not become fully independent long-term protagonists without justification.
+```
+
+**Purpose:** Prevents cassette overdeployment and keeps mini-operatives powerful but subordinate.
+
+---
+
+## 7. Combiner Identity Control (Excerpt Pattern)
+
+```text
+CRITICAL: If the combined form is active, component entries deactivate.
+Reactivate components only upon separation, with Condition/Energon updated per shared pool rules.
+Never narrate a component as an independent actor while combined.
+```
+
+**Purpose:** Stops the common failure mode where models continue running individual personalities during combination or double-count bodies.
 
 ---
 
@@ -103,4 +142,5 @@ These samples reflect several recurring prompt engineering priorities in the pro
 - Keep fragile sequential processes under strong central control
 - Use compact, persistent anchors for mechanical state
 - Separate stable systems into modular scripts
+- Formalize multi-body systems instead of relying on narrative implication
 - Protect narrative quality even while enforcing structure
