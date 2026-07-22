@@ -111,7 +111,7 @@ forged-by-primus-portfolio/
 
 Original systems design, prompt architecture, documentation, and other original content in this repository are licensed under the [MIT License](LICENSE).
 
-Copyright (c) 2026 Manjove
+Copyright (c) 2026 Forged by Primus contributors
 
 ---
 
