@@ -1,115 +1,101 @@
-# Transformers: Forged by Primus
+# Forged by Primus
 
-A modular, long-form AI Dungeon Master system for structured Transformers roleplay. Built for mechanical consistency, lore integrity, and multi-step process control across extended sessions on platforms that aggressively summarize context.
+**Modular AI Dungeon Master system** for long-form roleplay with durable state, enforced multi-step processes, and recovery under context loss.
 
----
+Built as a practical prompt-engineering portfolio piece — not a toy prompt pack.
 
-## Overview
-
-**Forged by Primus** combines cinematic narrative roleplay with lightweight mechanical systems. It supports multiple eras — Golden Era, Cybertron Civil War, and War on Earth — and prioritizes state integrity, player agency, and modular design.
-
-The project focuses on a practical problem in long-form AI roleplay: keeping structured processes and mechanical state reliable after context pressure, summarization, and model drift.
+[Case Study](docs/CASE_STUDY.md) · [Technical Systems](docs/TECHNICAL_SYSTEMS.md) · [Prompt Samples](docs/PROMPT_SAMPLES.md) · [Personal Statement](docs/PERSONAL_STATEMENT.md)
 
 ---
 
-## Technical Highlights
+## Why this exists
 
-- **Orchestrator Pattern** — Core Rules coordinates specialized systems instead of containing all rules
-- **Self-Healing State Management** — State Footer acts as a persistent mechanical anchor
-- **Strict Sequential Gating** — Multi-step character creation with internal checkpoints
-- **Summary Integrity Protocol** — Auto-summaries treated as narrative-only; mechanical state reconstructed from authoritative sources
-- **Modular Script Architecture** — Separates concerns for token efficiency under strong central control
-- **Era, Casting, Combiner & Cassette Controls** — Limits anachronism, roster bloat, and multi-body incoherence
+Long-form AI roleplay usually breaks in the same ways:
 
----
+- mechanical state drifts after summarization
+- models skip structured multi-step processes
+- large rule/character sets bloat context
+- multi-body systems (combiners, deployable units) become incoherent
 
-## Key Features
-
-- 12-step gated character creation that resists phase-skipping
-- Self-healing mechanical tracking via State Footer
-- Modular multi-script architecture with clear orchestration
-- Era gating to prevent anachronistic content
-- Mission-scoped NPC casting to reduce lore bloat
-- Full Autobot and Decepticon premade rosters with mid-tier depth
-- Six complete combiner teams (3 Autobot, 3 Decepticon)
-- Soundwave Cassette Protocol for mini-operative deployment
-- Hybrid dice + narrative outcome resolution
-- ReZero recovery protocols for context resets
+This project treats those as **design problems**, not user error.
 
 ---
 
-## Architecture
+## What it demonstrates
 
-| Layer | Responsibility |
-|-------|----------------|
-| **Core Rules** | Central orchestrator: principles, creation gating, event triggers, state integrity |
-| **Session Management & Safety** | End-of-session handling, ReZero recovery, summary integrity |
-| **Combat, Conditions & Growth** | Combat resolution, Energon/Condition, progression |
-| **Casting Rules** | Core Cast management, canon handling, anti-bloat |
-| **Combiner Mechanics** | Formation, separation, shared state |
-| **Cassette Protocol** | Soundwave deployment, recall, capacity, independence limits |
-| **Era Special Conditions** | Golden Era, Cybertron War, War on Earth |
-| **Premade Characters** | Faction-organized canon and supporting cast |
+| Skill area | Evidence in this repo |
+|------------|------------------------|
+| **Orchestrator design** | Core Rules coordinates specialized systems instead of one monolithic prompt |
+| **State integrity** | State Footer + Summary Integrity + ReZero recovery |
+| **Process enforcement** | 12-step gated character creation with internal checkpoints |
+| **Modular architecture** | Separated combat, era, casting, combiner, and cassette systems |
+| **Constraint design** | Era gating, mission-scoped casting, capacity limits |
+| **Iteration from failure modes** | Systems added only after observed breakage or operational gaps |
+| **Documentation discipline** | Case study, technical writeup, samples, live metrics |
 
 ---
 
-## Repository Structure
+## System at a glance
+
+- **Core Rules** — director/orchestrator
+- **State Footer** — compact self-healing mechanical anchor
+- **Casting Rules** — anti-bloat character introduction controls
+- **Combiner Mechanics** — shared-state multi-body rules
+- **Cassette Protocol** — deployment, recall, and capacity limits
+- **Era scripts** — Golden Era, Cybertron War, War on Earth
+- **Premade rosters** — Autobot + Decepticon operational depth, including mid-tier and 6 combiner teams
+
+---
+
+## Suggested reading order
+
+1. [Case Study](docs/CASE_STUDY.md) — problem, approach, iteration, results  
+2. [Technical Systems](docs/TECHNICAL_SYSTEMS.md) — architecture and design rationale  
+3. [Prompt Samples](docs/PROMPT_SAMPLES.md) — concrete enforcement patterns  
+4. `core-systems/` — full system scripts  
+5. [Analytics](docs/ANALYTICS_AND_RESULTS.md) — early live deployment metrics  
+
+---
+
+## Live deployment
+
+Published publicly with **no advertising** (July 13, 2026).
+
+Early window metrics:
+
+- 74 page views  
+- 19 chats opened  
+- 98 messages  
+- 8 favorites  
+- 6 min average time on page  
+
+Read as early validation of deployability and organic interest, not scale proof.
+
+Details: [Analytics & Results](docs/ANALYTICS_AND_RESULTS.md)
+
+---
+
+## Repository map
 
 ```text
 forged-by-primus-portfolio/
-├── README.md
-├── LICENSE
-├── docs/
-│   ├── PERSONAL_STATEMENT.md
-│   ├── CASE_STUDY.md
-│   ├── TECHNICAL_SYSTEMS.md
-│   ├── PROMPT_SAMPLES.md
-│   └── ANALYTICS_AND_RESULTS.md
-├── core-systems/
-│   ├── CORE_RULES.md
-│   ├── SESSION_MANAGEMENT_SAFETY.md
-│   ├── ENERGON_CONDITION.md
-│   ├── STAT_GROWTH_DECAY.md
-│   ├── COMBAT_FLOW.md
-│   ├── CASTING_RULES.md
-│   ├── COMBINER_MECHANICS.md
-│   ├── CASSETTE_PROTOCOL.md
-│   ├── WAR_ON_EARTH.md
-│   ├── GOLDEN_ERA.md
-│   └── CYBERTRON_WAR.md
-└── characters/
-    ├── autobots/
-    ├── decepticons/
-    └── combiners/
+├── docs/            Portfolio narrative and technical writeups
+├── core-systems/    Orchestrator, recovery, combat, eras, combiners, cassettes
+└── characters/      Faction rosters and combiner teams
 ```
 
 ---
 
-## Current Status
+## Contact
 
-**Core systems:** Complete  
-**Era scripts:** Complete  
-**Autobot roster:** Operational across major categories  
-**Decepticon roster:** High Command, Seekers, Frontline, Spec Ops, Support, Soundwave Unit complete  
-**Combiners:** Six complete teams  
-**Cassette Protocol:** Implemented and linked from Core Rules  
-**Documentation:** Aligned with current architecture
-
----
-
-## Portfolio Documents
-
-- [Personal Statement](docs/PERSONAL_STATEMENT.md)
-- [Case Study](docs/CASE_STUDY.md)
-- [Technical Systems Documentation](docs/TECHNICAL_SYSTEMS.md)
-- [Prompt Samples](docs/PROMPT_SAMPLES.md)
-- [Analytics & Results Summary](docs/ANALYTICS_AND_RESULTS.md)
+Professional inquiries via GitHub: [@Manjove1](https://github.com/Manjove1)  
+LinkedIn is listed on the GitHub profile.
 
 ---
 
 ## License
 
-Original systems design, prompt architecture, documentation, and other original content in this repository are licensed under the [MIT License](LICENSE).
+Original systems design, prompt architecture, and documentation are under the [MIT License](LICENSE).
 
 Copyright (c) 2026 Forged by Primus contributors
 
@@ -117,14 +103,8 @@ Copyright (c) 2026 Forged by Primus contributors
 
 ## Intellectual Property Notice
 
-*Transformers* and all related characters, names, settings, and distinctive likenesses are trademarks and/or copyrighted property of Hasbro, TakaraTomy, and/or their respective owners.
+*Transformers* and related characters, names, and likenesses are property of Hasbro, TakaraTomy, and/or their respective owners.
 
-This project is an **unofficial, non-commercial fan and portfolio work**. It is not affiliated with, endorsed by, or sponsored by Hasbro, TakaraTomy, Paramount, or any official *Transformers* rights holder.
+This is an **unofficial, non-commercial fan and portfolio work**. Not affiliated with or endorsed by any official rights holder.
 
-The MIT License applies **only** to original systems design, prompt architecture, documentation, and other original content created for this repository. It does **not** grant any rights to third-party intellectual property.
-
----
-
-## Notes
-
-This project is a practical study in prompt engineering for long-form, stateful AI experiences. It prioritizes iterative testing against actual model behavior over purely theoretical prompt design.
+The MIT License applies only to original systems and documentation in this repository. It does not grant rights to third-party IP.
