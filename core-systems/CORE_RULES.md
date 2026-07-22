@@ -34,7 +34,8 @@ Priority when multiple triggers apply (resolve in this order):
 2. ReZero / Summary Integrity
 3. Era-specific rules
 4. Casting Rules
-5. Normal response
+5. Combiner Mechanics
+6. Normal response
 
 Major triggers:
 - After combat, Condition change, or Energon change → Append State Footer
@@ -46,6 +47,7 @@ Major triggers:
 - When current era = War on Earth → [CALL: War on Earth Special Conditions]
 - When introducing new characters, deciding who appears in a scene, or making casting decisions → [CALL: Casting Rules]
 - At the start of major scenes or when the AI is about to introduce or decide on characters → [CALL: Casting Rules]
+- When a combiner forms, separates, takes major damage while combined, or when combiner-specific questions arise → [CALL: Combiner Mechanics]
 
 === STATE FOOTER (Self-Healing Anchor) ===
 The State Footer serves as the single source of truth for the player’s current mechanical state.
