@@ -4,8 +4,6 @@ This folder contains structured, premade canon characters for *Forged by Primus*
 
 These characters are intended to be used selectively according to the **Casting Rules**. The system should prefer Dynamic Core Cast characters and newly generated characters by default. Premade canon characters should only be introduced when they have clear narrative justification.
 
-The goal of this structure is to create the feeling of a fuller, more specialized world while remaining token-efficient.
-
 ---
 
 ## Structure
@@ -23,13 +21,19 @@ characters/
 ├── decepticons/
 │   ├── high_command.md
 │   ├── frontline.md
-│   ├── aerial_naval.md
+│   ├── seekers.md
 │   ├── special_operations.md
-│   └── support_logistics.md
+│   ├── support_logistics.md
+│   └── soundwave_unit.md
+├── combiners/
+│   ├── defensor.md          (Protectobots)
+│   ├── computron.md         (Technobots)
+│   ├── superion.md          (Aerialbots)
+│   ├── bruticus.md          (Combaticons)
+│   ├── menasor.md           (Stunticons)
+│   └── devastator.md        (Constructicons)
 └── README.md
 ```
-
-Each file is intended to hold approximately 5–8 characters.
 
 ---
 
@@ -37,13 +41,26 @@ Each file is intended to hold approximately 5–8 characters.
 
 | Category | Purpose |
 |----------|---------|
-| **High Command** | Strategic leaders and high-level decision makers. Use sparingly and with weight. |
-| **Frontline / Frontline Combat** | Primary combat personnel who commonly appear in active missions. |
-| **Aerial & Naval** | Characters specialized in air or sea operations. |
-| **Special Operations** | Covert, infiltration, sabotage, and high-skill specialist roles. |
+| **High Command** | Strategic leaders. Use sparingly and with weight. |
+| **Frontline** | Independent combat personnel for active missions. |
+| **Seekers / Aerial & Naval** | Air (and limited sea) specialists. |
+| **Special Operations** | Covert, infiltration, sabotage, bounty, and high-skill roles. |
 | **Science & Medical** | Scientific, technical, and medical specialists. |
-| **Support & Logistics** | Repair, supply, communications, intelligence support, and general logistics. |
-| **Earth Resistance** | Autobot characters and cells specifically focused on operations on Earth. |
+| **Support & Logistics** | Repair, supply, communications, medical support. |
+| **Soundwave Unit** | Cassette operatives. Governed by Cassette Protocol. |
+| **Earth Resistance** | Human allies and Earth-focused Autobot cells. |
+| **Combiners** | Full teams + combined forms. Governed by Combiner Mechanics. |
+
+---
+
+## Deprecated Stubs
+
+These files are empty placeholders and should not be used:
+
+- `autobots/frontline.md` → use `frontline_combat.md`
+- `autobots/logistics.md` → use `support_logistics.md`
+- `decepticons/aerial_naval.md` → use `seekers.md`
+- `decepticons/logistics.md` → use `support_logistics.md`
 
 ---
 
@@ -52,8 +69,8 @@ Each file is intended to hold approximately 5–8 characters.
 - Prefer loading only the relevant faction and category for the current mission.
 - Use short summaries first. Expand to full detail only when a character becomes actively involved.
 - Follow the priority order defined in `CASTING_RULES.md`.
-- Keep character entries relatively concise to maintain token efficiency.
-- High Command characters should feel significant when they appear.
+- High Command and combiners should feel significant when they appear.
+- Cassettes require Soundwave presence or explicit deployment (see Cassette Protocol).
 
 ---
 
@@ -71,7 +88,7 @@ Each file is intended to hold approximately 5–8 characters.
 [2–3 sentences covering core personality, speech style, and notable quirks.]
 
 **Combat / Action Style:**  
-[How they typically fight or operate. Focus on approach and priorities.]
+[How they typically fight or operate.]
 
 **Key Relationships:**  
 - [Important relationship 1]  
@@ -86,6 +103,5 @@ Each file is intended to hold approximately 5–8 characters.
 **AI Notes:**  
 - Never speak, act, or think for {{user}}.  
 - Stay consistent with the voice and personality above.  
-- When describing this character in action, use at least two non-visual senses.  
 - Prefer this character only when they serve a clear narrative purpose.
 ```

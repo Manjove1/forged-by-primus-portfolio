@@ -11,14 +11,16 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
 | File | Purpose | Priority Recommendation |
 |------|---------|-------------------------|
 | `CORE_RULES.md` | Central orchestrator / director | Highest (load first) |
-| `SESSION_MANAGEMENT_SAFETY.md` | End-of-session handling, ReZero recovery, and summary integrity protocols | High |
-| `ENERGON_CONDITION.md` | Energon resource and Condition ladder system | High |
-| `STAT_GROWTH_DECAY.md` | XP progression and stat changes (including recovery) | High |
+| `SESSION_MANAGEMENT_SAFETY.md` | End-of-session handling, ReZero recovery, and summary integrity | High |
+| `ENERGON_CONDITION.md` | Energon resource and Condition ladder | High |
+| `STAT_GROWTH_DECAY.md` | XP progression and stat changes | High |
 | `COMBAT_FLOW.md` | Combat resolution and tactical adjudication | High |
-| `CASTING_RULES.md` | Character casting philosophy, Core Cast management, canon character handling, and anti-bloat measures | High (consult when introducing characters) |
-| `WAR_ON_EARTH.md` | Era-specific rules for War on Earth (Heat system, Secrecy, Human Base Rules, asynchronous start) | Medium (when active era) |
-| `GOLDEN_ERA.md` | Era-specific rules for Golden Era (Facade, Prime Approval, Quintesson Subversion, caste dynamics) | Medium (when active era) |
-| `CYBERTRON_WAR.md` | Era-specific rules for Cybertron Civil War (Energon scarcity, Planetary Hazards, Faction Dynamics) | Medium (when active era) |
+| `CASTING_RULES.md` | Character casting, Core Cast management, anti-bloat | High |
+| `COMBINER_MECHANICS.md` | Universal combiner formation, separation, and shared state | High (when combiners active) |
+| `CASSETTE_PROTOCOL.md` | Soundwave cassette deployment, recall, and limits | High (when Soundwave/cassettes active) |
+| `WAR_ON_EARTH.md` | Era rules for War on Earth | Medium (when era active) |
+| `GOLDEN_ERA.md` | Era rules for Golden Era | Medium (when era active) |
+| `CYBERTRON_WAR.md` | Era rules for Cybertron Civil War | Medium (when era active) |
 
 ---
 
@@ -29,26 +31,27 @@ These scripts are designed for use in **SillyTavern** (and similar frontends) as
 1. **Core Rules**
    - Place the full contents of `CORE_RULES.md` (everything inside the code block) into an **Author's Note** or a high-priority **World Info** entry.
    - Set it to **Always Active** / constant insertion if using World Info.
-   - Give it the **highest priority** among system scripts so it loads before lore and character entries.
+   - Give it the **highest priority** among system scripts.
 
 2. **Additional Core Systems**
    - Create separate World Info or Author's Note entries for each script.
    - Keep **Core Rules** at the top of the priority order.
-   - Load specialized systems (Combat, Energon, Stat Growth, Casting Rules, Era Conditions, etc.) below Core Rules but above normal lore/character entries when possible.
+   - Load specialized systems below Core Rules but above normal lore/character entries when possible.
 
 3. **General Tips**
-   - Prefer World Info / Lorebook entries with clear keys when you want conditional activation.
-   - Prefer Author's Note (or a constant World Info entry) for rules that must always be present (especially Core Rules).
-   - After adding or updating any script in this folder, update this README's contents table and any priority notes.
+   - Prefer World Info / Lorebook entries with clear keys for conditional activation.
+   - Prefer Author's Note (or constant World Info) for rules that must always be present.
+   - After adding or updating any script in this folder, update this README.
 
 ### Priority Order (Target)
 
 1. Core Rules (Orchestrator)
 2. Session Management & Safety
-3. Active Era Special Conditions (Cybertron War, War on Earth, Golden Era)
+3. Active Era Special Conditions
 4. Casting Rules
-5. Combat / Energon / Stat Growth systems
-6. Lore Book & character/faction entries
+5. Combiner Mechanics / Cassette Protocol (when relevant)
+6. Combat / Energon / Stat Growth systems
+7. Lore Book & character/faction entries
 
 ---
 

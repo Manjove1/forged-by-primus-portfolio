@@ -14,14 +14,12 @@ The project was developed to solve common failure modes in long-form AI roleplay
 
 ## Technical Highlights
 
-This project demonstrates several advanced prompt engineering techniques:
-
-- **Orchestrator Pattern** — Core Rules script acts as a director that coordinates specialized systems rather than containing all rules
-- **Self-Healing State Management** — Compact State Footer serves as a persistent mechanical anchor against context loss and summarization
-- **Strict Sequential Gating** — Multi-step character creation with internal checkpoints and enforcement against phase-skipping
+- **Orchestrator Pattern** — Core Rules script acts as a director that coordinates specialized systems
+- **Self-Healing State Management** — Compact State Footer serves as a persistent mechanical anchor
+- **Strict Sequential Gating** — Multi-step character creation with internal checkpoints
 - **Summary Integrity Protocol** — Treats auto-summaries as narrative-only; reconstructs mechanical state from authoritative sources
 - **Modular Script Architecture** — Separates concerns for token efficiency while maintaining strong central control
-- **Era & Casting Controls** — Prevents anachronisms and reduces narrative bloat through structured limits
+- **Era, Casting, Combiner & Cassette Controls** — Prevents anachronisms and reduces narrative bloat
 
 ---
 
@@ -32,68 +30,26 @@ This project demonstrates several advanced prompt engineering techniques:
 - Modular multi-script architecture with clear orchestration
 - Era gating to prevent anachronistic content
 - Mission-scoped NPC casting to reduce lore bloat
+- Full Autobot and Decepticon premade rosters with mid-tier depth
+- Six complete combiner teams (3 Autobot, 3 Decepticon)
+- Soundwave Cassette Protocol for mini-operative deployment
 - Hybrid dice + narrative outcome resolution system
 - Summary integrity and ReZero recovery protocols
-- Designed for long-session reliability under context pressure
 
 ---
 
 ## Architecture
 
-The system uses a layered, modular design:
-
 | Layer | Responsibility |
 |-------|----------------|
-| **Core Rules** | Central orchestrator. Handles high-level principles, character creation gating, event triggers, and state integrity. |
-| **Lore Book** | Always-active reference for cosmology, eras, and core setting concepts. |
-| **Combat, Conditions & Growth** | Mechanical systems for combat resolution, condition tracking, and progression. |
-| **Session Management & Safety** | End-of-session handling, ReZero recovery, and summary integrity protocols. |
-| **Era Special Conditions** | Era-specific mechanical and narrative rules (Golden Era, Cybertron War, War on Earth). |
-| **Casting Rules** | Character casting philosophy, Core Cast management, canon/supporing character handling, and token efficiency measures. |
-
-The Core Rules script functions as a director rather than a complete rulebook. It activates detailed systems only when needed, improving both control and token efficiency.
-
----
-
-## Core Systems
-
-**Character Creation**  
-A strict 12-step sequential process that requires explicit player input at each stage. Includes internal checkpoints and in-character enforcement when the player attempts to skip ahead.
-
-**State Footer**  
-A compact mechanical status block automatically appended after significant events. The model is instructed to treat the most recent footer as the authoritative source of truth for resources, conditions, and progression.
-
-**Summary Integrity Protocol**  
-Auto-generated summaries are treated as narrative flavor only. Mechanical values are reconstructed from the Master State, State Footer, and pinned character export.
-
-**Era & Casting Controls**  
-NPCs and lore entries are restricted by active era. Premade characters are only introduced when they provide clear narrative value for the current mission.
-
-**Resolution System**  
-Uses a lightweight 1d20 + modifier approach with narrative outcome tiers (Yes and…, Yes but…, No but…, No and…).
-
----
-
-## Design Philosophy
-
-The system prioritizes three principles:
-
-1. **Structure without rigidity** — Strong enforcement of critical processes while preserving narrative freedom within defined bounds.
-2. **Self-healing over prevention** — Assume context will eventually degrade and design recovery mechanisms accordingly.
-3. **Modularity with strong orchestration** — Keep detailed systems separate for efficiency, but maintain a powerful central director script.
-
----
-
-## Current Status
-
-All core mechanical and era-specific systems have been completed and polished:
-
-- Core Rules + Session Management
-- Energon & Condition
-- Stat Growth & Decay
-- Combat Flow
-- Casting Rules (Core Cast management, canon handling, and anti-bloat measures)
-- Three fully developed era scripts (Golden Era, Cybertron War, War on Earth)
+| **Core Rules** | Central orchestrator. High-level principles, character creation gating, event triggers, state integrity. |
+| **Session Management & Safety** | End-of-session handling, ReZero recovery, summary integrity. |
+| **Combat, Conditions & Growth** | Combat resolution, Energon/Condition, progression. |
+| **Casting Rules** | Core Cast management, canon handling, anti-bloat. |
+| **Combiner Mechanics** | Formation, separation, shared state for all combiners. |
+| **Cassette Protocol** | Soundwave deployment, recall, capacity, and independence limits. |
+| **Era Special Conditions** | Golden Era, Cybertron War, War on Earth rules. |
+| **Premade Characters** | Faction-organized canon and supporting cast. |
 
 ---
 
@@ -102,24 +58,40 @@ All core mechanical and era-specific systems have been completed and polished:
 ```text
 forged-by-primus-portfolio/
 ├── README.md
-├── docs/                  # Portfolio documents
+├── docs/                       # Portfolio documents
 │   ├── PERSONAL_STATEMENT.md
 │   ├── CASE_STUDY.md
 │   ├── TECHNICAL_SYSTEMS.md
 │   ├── PROMPT_SAMPLES.md
-│   ├── ANALYTICS_AND_RESULTS.md
-└── core-systems/          # Overarching mechanics & setting (complete)
-    ├── README.md
-    ├── CORE_RULES.md
-    ├── SESSION_MANAGEMENT_SAFETY.md
-    ├── ENERGON_CONDITION.md
-    ├── STAT_GROWTH_DECAY.md
-    ├── COMBAT_FLOW.md
-    ├── CASTING_RULES.md
-    ├── WAR_ON_EARTH.md
-    ├── GOLDEN_ERA.md
-    └── CYBERTRON_WAR.md
+│   └── ANALYTICS_AND_RESULTS.md
+├── core-systems/               # Overarching mechanics & setting
+│   ├── CORE_RULES.md
+│   ├── SESSION_MANAGEMENT_SAFETY.md
+│   ├── ENERGON_CONDITION.md
+│   ├── STAT_GROWTH_DECAY.md
+│   ├── COMBAT_FLOW.md
+│   ├── CASTING_RULES.md
+│   ├── COMBINER_MECHANICS.md
+│   ├── CASSETTE_PROTOCOL.md
+│   ├── WAR_ON_EARTH.md
+│   ├── GOLDEN_ERA.md
+│   └── CYBERTRON_WAR.md
+└── characters/                 # Premade roster
+    ├── autobots/
+    ├── decepticons/
+    └── combiners/
 ```
+
+---
+
+## Current Status
+
+**Core systems:** Complete  
+**Era scripts:** Complete (Golden Era, Cybertron War, War on Earth)  
+**Autobot roster:** Operational across all major categories  
+**Decepticon roster:** High Command, Seekers, Frontline, Spec Ops, Support, Soundwave Unit complete  
+**Combiners:** 6 complete teams (Defensor, Computron, Superion, Bruticus, Menasor, Devastator)  
+**Cassette Protocol:** Implemented and linked from Core Rules
 
 ---
 

@@ -1,23 +1,9 @@
 # Autobot Frontline
 
-This file contains premade Autobot characters who primarily operate in active combat and field operations.
+**DEPRECATED — Do not use this file.**
 
-These characters are appropriate when a named Autobot combat presence is justified by the current mission.
+Active frontline Autobot characters live in:
 
----
+→ [`frontline_combat.md`](frontline_combat.md)
 
-### Character Entry Format
-
-```text
-### [Character Name]
-**Role / Tier:** Autobot Frontline
-**Era Availability:** 
-**Short Description:** 
-**Voice Notes:** 
-**Key Relationships:** 
-**When to Use:** 
-```
-
----
-
-<!-- Characters will be added below -->
+This stub exists only to prevent broken references. Prefer the combat file above.

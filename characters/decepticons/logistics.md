@@ -1,23 +1,9 @@
 # Decepticon Logistics
 
-This file contains premade Decepticon characters who primarily operate in support roles (repair, medical, intelligence, communications, supply, technical analysis, etc.).
+**DEPRECATED — Do not use this file.**
 
-These characters are appropriate when the mission involves support functions rather than pure frontline combat.
+Active Decepticon support characters live in:
 
----
+→ [`support_logistics.md`](support_logistics.md)
 
-### Character Entry Format
-
-```text
-### [Character Name]
-**Role / Tier:** Decepticon Logistics
-**Era Availability:** 
-**Short Description:** 
-**Voice Notes:** 
-**Key Relationships:** 
-**When to Use:** 
-```
-
----
-
-<!-- Characters will be added below -->
+This stub exists only to prevent broken references. Prefer the support file above.
