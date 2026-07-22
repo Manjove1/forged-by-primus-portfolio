@@ -8,11 +8,28 @@
 
 ### Combined Form – Defensor
 
-**Role:** Heavy defensive combiner focused on protection and area control.  
-**When to Use:** Large-scale defensive operations, civilian evacuation under fire, or when a unified protective presence is required.
+**Team:** Protectobots  
+**Components:** Hot Spot (Torso), Streetwise, First Aid, Blades, Groove  
+**Era Availability:** Cybertron War, War on Earth  
+**Stats (1–10):** STR:9 | SPD:6 | END:10 | FIRE:7 | INT:8 | SKL:8 | COU:9
 
-**Notes:**  
-Defensor prioritizes shielding allies and non-combatants over aggressive offense. Combination should feel like a deliberate protective measure rather than a pure power escalation.
+**Personality & Voice:**  
+Calm, resonant, and protective. The combined voice reflects a strong consensus around preservation and civilian safety. Hot Spot’s leadership provides the core, tempered by the team’s shared rescue focus. Internal conflict remains low unless the team is ordered to prioritize pure lethality over protection.
+
+**Combat / Action Style:**  
+Defensive containment, area control, and non-lethal suppression when possible. Uses forcefields, positioning, and coordinated protection to neutralize threats while minimizing collateral damage. Less effective when forced into purely offensive, high-casualty operations.
+
+**Key Tension:**  
+Defensor is at its best when protecting others. Orders that require sacrificing non-combatants or abandoning rescue priorities create visible strain.
+
+**When to Use:**  
+Defensive stands, civilian evacuation under fire, large-scale protection operations, or any situation where a heavy, rescue-oriented combiner is needed.
+
+**AI Notes:**  
+- Narrate Defensor as a single, unified protective entity.  
+- Personality should feel more harmonious than more conflicted combiners, with tension arising mainly around moral and protective lines.  
+- On separation, return to the individual Protectobot entries and apply shared-state transfer rules from Combiner Mechanics.  
+- Do not narrate individual components while combined.
 
 ---
 

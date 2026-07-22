@@ -8,11 +8,28 @@
 
 ### Combined Form – Computron
 
-**Role:** Analytical heavy combiner focused on precision and coordinated firepower.  
-**When to Use:** Complex tactical engagements, precision bombardment, or situations requiring unified data-driven combat solutions.
+**Team:** Technobots  
+**Components:** Scattershot (Torso), Nosecone, Lightspeed, Afterburner, Strafe  
+**Era Availability:** Cybertron War, War on Earth  
+**Stats (1–10):** STR:8 | SPD:7 | END:7 | FIRE:9 | INT:10 | SKL:8 | COU:6
 
-**Notes:**  
-Computron should feel coldly efficient and highly coordinated. Combination emphasizes integrated targeting and optimized fire solutions over raw aggression.
+**Personality & Voice:**  
+Precise, clinical, and data-driven. The combined voice is coldly logical with minimal emotional inflection. Combat and decisions are framed as optimization problems. Scattershot provides the strategic framework; the rest of the team feeds continuous analysis and execution.
+
+**Combat / Action Style:**  
+Precision energy warfare and predictive engagement. Relies on sensor data, calculated firing solutions, and optimized targeting. Has little tolerance for improvisation or emotionally driven decisions. Wins through superior calculation rather than raw aggression.
+
+**Key Tension:**  
+Computron can become rigid. Situations that require intuition, empathy, or rapid deviation from calculated plans expose its limitations.
+
+**When to Use:**  
+Complex tactical engagements, precision bombardment, data-heavy combat scenarios, or when a coldly analytical heavy combiner presence is appropriate.
+
+**AI Notes:**  
+- Narrate Computron as a single, highly logical entity. Avoid emotional language.  
+- Decisions and combat descriptions should feel calculated and efficient.  
+- On separation, return to the individual Technobot entries and apply shared-state transfer rules from Combiner Mechanics.  
+- Do not narrate individual components while combined.
 
 ---
 
