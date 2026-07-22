@@ -135,15 +135,17 @@ Major changes were driven by observed behavior:
 
 ## 9. Early Deployment Results
 
-Public deployment with no advertising produced, in the first five days:
+Published July 13, 2026 with no advertising. Early live metrics:
 
-- 66 page views  
-- 38 daily visitors  
-- 18 chats opened  
-- 97 messages sent  
-- 12 daily chatters  
+- 74 page views  
+- 37 daily visitors  
+- 19 chats opened  
+- 98 messages sent  
+- 13 daily chatters  
+- 6 minute average time on page  
+- 8 favorites  
 
-These figures are early and limited, but they show the system was deployable, usable, and able to attract organic engagement under live conditions. Later development expanded the system from core reliability into full faction operational completeness, formal multi-body systems, and documentation suitable for external review.
+These figures are early and limited, but they show the system was deployable, usable, and able to attract organic engagement under live conditions. Average time on page was stronger than average chat length, suggesting some users evaluated the listing carefully even when sessions stayed short. Later development expanded the system from core reliability into full faction operational completeness, formal multi-body systems, and documentation suitable for external review.
 
 ---
 
