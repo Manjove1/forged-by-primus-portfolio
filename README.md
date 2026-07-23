@@ -1,8 +1,12 @@
 # Forged by Primus
 
+[![Latest release](https://img.shields.io/github/v/release/Manjove1/forged-by-primus-portfolio)](https://github.com/Manjove1/forged-by-primus-portfolio/releases/latest)
+
 **Modular AI Dungeon Master system** for long-form roleplay with durable state, enforced multi-step processes, and recovery under context loss.
 
 Built as a practical prompt-engineering portfolio piece — not a toy prompt pack.
+
+**Download:** [Latest package](https://github.com/Manjove1/forged-by-primus-portfolio/releases/latest) · or use **Code → Download ZIP**
 
 [Case Study](docs/CASE_STUDY.md) · [Technical Systems](docs/TECHNICAL_SYSTEMS.md) · [Prompt Samples](docs/PROMPT_SAMPLES.md) · [Personal Statement](docs/PERSONAL_STATEMENT.md)
 
@@ -88,20 +92,28 @@ forged-by-primus-portfolio/
 
 ## Download
 
-### Quick download
+### Recommended: portfolio package
+Download the curated systems + docs archive from the latest release:
+
+- **[Latest package](https://github.com/Manjove1/forged-by-primus-portfolio/releases/latest)**
+
+The package zip contains `core-systems/`, `docs/`, `LICENSE`, and README.
+
+### Full repository
 Use GitHub’s built-in archive:
 
 1. Click the green **Code** button at the top of this repository  
 2. Select **Download ZIP**
 
-That gives you the full repository as a single archive.
+That includes character rosters and the complete repo.
 
-### Portfolio package (recommended)
-For a cleaner evaluation package, use the latest **Release**:
+### Publishing releases (maintainers)
+Releases are automated via GitHub Actions:
 
-- [Releases](https://github.com/Manjove1/forged-by-primus-portfolio/releases)
+- **Manual:** Actions → **Portfolio Release** → Run workflow → enter tag (e.g. `v0.1.0-portfolio`)
+- **Tag push:** `git tag v0.1.0-portfolio && git push origin v0.1.0-portfolio`
 
-The release archive is intended for review of the systems design and documentation. It is not an open-source product distribution.
+Both paths build the curated package zip and publish a GitHub Release.
 
 ### Usage note
 Original systems design, prompt architecture, and documentation are **All Rights Reserved**.
