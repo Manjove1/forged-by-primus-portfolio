@@ -95,9 +95,11 @@ LinkedIn is listed on the GitHub profile.
 
 ## License
 
-Original systems design, prompt architecture, and documentation are under the [MIT License](LICENSE).
+Original systems design, prompt architecture, and documentation  
+© 2026 Forged by Primus contributors. All Rights Reserved.
 
-Copyright (c) 2026 Forged by Primus contributors
+You may view this repository for personal and educational purposes.  
+Reuse, modification, or commercial use of the original systems requires prior written permission.
 
 ---
 
@@ -107,4 +109,4 @@ Copyright (c) 2026 Forged by Primus contributors
 
 This is an **unofficial, non-commercial fan and portfolio work**. Not affiliated with or endorsed by any official rights holder.
 
-The MIT License applies only to original systems and documentation in this repository. It does not grant rights to third-party IP.
+The All Rights Reserved notice applies only to original systems design, prompt architecture, and documentation in this repository. It does not grant or claim rights to third-party intellectual property.
