@@ -83,9 +83,11 @@ Details: [Analytics & Results](docs/ANALYTICS_AND_RESULTS.md)
 
 ```text
 forged-by-primus-portfolio/
-├── docs/            Portfolio narrative and technical writeups
-├── core-systems/    Orchestrator, recovery, combat, eras, combiners, cassettes
-└── characters/      Faction rosters and combiner teams
+├── docs/                 Portfolio narrative and technical writeups
+├── core-systems/         Orchestrator, recovery, combat, eras, combiners, cassettes
+├── characters/           Faction rosters and combiner teams
+├── packages/sillytavern/ Install notes for ST import
+└── scripts/              Release helpers (e.g. build ST lorebook)
 ```
 
 ---
@@ -97,7 +99,20 @@ Download the curated systems + docs archive from the latest release:
 
 - **[Latest package](https://github.com/Manjove1/forged-by-primus-portfolio/releases/latest)**
 
-The package zip contains `core-systems/`, `docs/`, `LICENSE`, and README.
+The package zip contains:
+
+- `core-systems/` and `docs/`
+- `sillytavern/forged-by-primus-core-systems.json` — ready for SillyTavern World Info import
+- `sillytavern/INSTALL_SILLYTAVERN.md`
+- `LICENSE` and README
+
+### SillyTavern import
+1. Unzip the release package  
+2. SillyTavern → **World Info** → **Import**  
+3. Select `sillytavern/forged-by-primus-core-systems.json`  
+4. Attach the lorebook to the chat or character  
+
+Details: [packages/sillytavern/INSTALL_SILLYTAVERN.md](packages/sillytavern/INSTALL_SILLYTAVERN.md)
 
 ### Full repository
 Use GitHub’s built-in archive:
@@ -113,7 +128,10 @@ Releases are automated via GitHub Actions:
 - **Manual:** Actions → **Portfolio Release** → Run workflow → enter tag (e.g. `v0.1.0-portfolio`)
 - **Tag push:** `git tag v0.1.0-portfolio && git push origin v0.1.0-portfolio`
 
-Both paths build the curated package zip and publish a GitHub Release.
+Both paths:
+1. Build the SillyTavern lorebook from `core-systems/`
+2. Package systems + docs + ST import files
+3. Publish a GitHub Release with the zip attached
 
 ### Usage note
 Original systems design, prompt architecture, and documentation are **All Rights Reserved**.
