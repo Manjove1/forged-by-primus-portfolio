@@ -86,6 +86,33 @@ forged-by-primus-portfolio/
 
 ---
 
+## Download
+
+### Quick download
+Use GitHub’s built-in archive:
+
+1. Click the green **Code** button at the top of this repository  
+2. Select **Download ZIP**
+
+That gives you the full repository as a single archive.
+
+### Portfolio package (recommended)
+For a cleaner evaluation package, use the latest **Release**:
+
+- [Releases](https://github.com/Manjove1/forged-by-primus-portfolio/releases)
+
+The release archive is intended for review of the systems design and documentation. It is not an open-source product distribution.
+
+### Usage note
+Original systems design, prompt architecture, and documentation are **All Rights Reserved**.
+
+You may download and review this material for personal and educational purposes.  
+Reuse, modification, redistribution, or commercial use requires prior written permission.
+
+*Transformers* and related characters/names remain the property of their respective owners. This repository is an unofficial, non-commercial portfolio work.
+
+---
+
 ## Contact
 
 Professional inquiries via GitHub: [@Manjove1](https://github.com/Manjove1)  
