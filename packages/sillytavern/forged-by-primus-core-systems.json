@@ -1,1 +1,9 @@
-PLACEHOLDER
+{
+  "name": "Forged by Primus — Core Systems",
+  "description": "Placeholder in source tree. The full importable lorebook is generated into the GitHub Release package under sillytavern/. See INSTALL_SILLYTAVERN.md.",
+  "scan_depth": 4,
+  "token_budget": 2048,
+  "recursive_scanning": false,
+  "extensions": {},
+  "entries": {}
+}
