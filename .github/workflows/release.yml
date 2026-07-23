@@ -1,0 +1,117 @@
+name: Portfolio Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag (e.g. v0.1.0-portfolio)'
+        required: true
+        type: string
+      prerelease:
+        description: 'Mark as pre-release'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve tag
+        id: meta
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TAG="${{ inputs.tag }}"
+          else
+            TAG="${GITHUB_REF#refs/tags/}"
+          fi
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Using tag: $TAG"
+
+      - name: Build curated package
+        run: |
+          mkdir -p package/core-systems package/docs
+          cp LICENSE README.md package/
+          cp core-systems/*.md package/core-systems/
+          cp docs/*.md package/docs/
+
+          cat > package/PACKAGE_README.md << 'EOF'
+          # Forged by Primus — Portfolio Package
+
+          This archive packages the core systems design and documentation for evaluation.
+
+          ## Contents
+
+          - `LICENSE` — All Rights Reserved
+          - `README.md` — Project overview
+          - `core-systems/` — Orchestrator, state, casting, combat, eras, multi-body protocols
+          - `docs/` — Case study, technical systems, and supporting writeups
+
+          ## How to review
+
+          1. Start with `docs/CASE_STUDY.md`
+          2. Then `docs/TECHNICAL_SYSTEMS.md`
+          3. Inspect `core-systems/` for the control architecture
+
+          ## License
+
+          Original systems design, prompt architecture, and documentation are All Rights Reserved.
+          Personal and educational review only.
+          Reuse, modification, redistribution, or commercial use requires prior written permission.
+          EOF
+
+          # Normalize indentation in the generated readme
+          sed -i 's/^          //' package/PACKAGE_README.md
+
+          cd package
+          zip -r ../forged-by-primus-portfolio-package.zip .
+          cd ..
+          ls -lh forged-by-primus-portfolio-package.zip
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: Portfolio package ${{ steps.meta.outputs.tag }}
+          prerelease: ${{ github.event_name == 'workflow_dispatch' && inputs.prerelease || false }}
+          generate_release_notes: true
+          files: |
+            forged-by-primus-portfolio-package.zip
+          body: |
+            ## Forged by Primus — Portfolio Package
+
+            This release packages the **core systems design and documentation** for evaluation as a prompt-engineering / LLM agent-control portfolio piece.
+
+            It is intended for review of architecture, process enforcement, state integrity, and modular design — not as an open-source product distribution.
+
+            ### What's in the package zip
+
+            - **Core systems** — orchestrator, state integrity/recovery, casting rules, combat, energon/condition, growth, combiner mechanics, cassette protocol, and all three era scripts
+            - **Documentation** — case study, technical systems writeup, and related docs
+            - **LICENSE** + project README
+
+            Full repository source (including character rosters) is also available via the automatic Source code zip below.
+
+            ### How to use
+
+            1. Download `forged-by-primus-portfolio-package.zip`
+            2. Review `docs/` first
+            3. Inspect `core-systems/` for the control architecture
+
+            ### License / usage
+
+            Original systems design, prompt architecture, and documentation are **All Rights Reserved**.
+
+            You may download and review this material for personal and educational purposes.  
+            Reuse, modification, redistribution, or commercial use requires prior written permission.
+
+            *Transformers* and related characters/names remain the property of their respective owners. This is an unofficial, non-commercial portfolio work.
