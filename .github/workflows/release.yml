@@ -42,10 +42,13 @@ jobs:
 
       - name: Build curated package
         run: |
-          mkdir -p package/core-systems package/docs
+          mkdir -p package/core-systems package/docs package/sillytavern
           cp LICENSE README.md package/
           cp core-systems/*.md package/core-systems/
           cp docs/*.md package/docs/
+          if [ -d packages/sillytavern ]; then
+            cp -r packages/sillytavern/* package/sillytavern/
+          fi
 
           cat > package/PACKAGE_README.md << 'EOF'
           # Forged by Primus — Portfolio Package
@@ -58,12 +61,20 @@ jobs:
           - `README.md` — Project overview
           - `core-systems/` — Orchestrator, state, casting, combat, eras, multi-body protocols
           - `docs/` — Case study, technical systems, and supporting writeups
+          - `sillytavern/` — Ready-to-import SillyTavern lorebook JSON + install notes
 
           ## How to review
 
           1. Start with `docs/CASE_STUDY.md`
           2. Then `docs/TECHNICAL_SYSTEMS.md`
           3. Inspect `core-systems/` for the control architecture
+
+          ## SillyTavern import
+
+          1. Open World Info / Lorebook → Import
+          2. Select `sillytavern/forged-by-primus-core-systems.json`
+          3. Attach the lorebook to your chat or character
+          4. See `sillytavern/INSTALL_SILLYTAVERN.md` for details
 
           ## License
 
@@ -100,6 +111,7 @@ jobs:
 
             - **Core systems** — orchestrator, state integrity/recovery, casting rules, combat, energon/condition, growth, combiner mechanics, cassette protocol, and all three era scripts
             - **Documentation** — case study, technical systems writeup, and related docs
+            - **SillyTavern import** — `sillytavern/forged-by-primus-core-systems.json` ready for World Info import
             - **LICENSE** + project README
 
             Full repository source (including character rosters) is also available via the automatic Source code zip below.
@@ -109,6 +121,7 @@ jobs:
             1. Download `forged-by-primus-portfolio-package.zip`
             2. Review `docs/` first
             3. Inspect `core-systems/` for the control architecture
+            4. For SillyTavern: import `sillytavern/forged-by-primus-core-systems.json` via World Info
 
             ### License / usage
 
