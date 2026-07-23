@@ -4,13 +4,16 @@
 
 File: `forged-by-primus-core-systems.json`
 
+This file is **built automatically into the GitHub Release package** from `core-systems/` when a release is published.
+
 ### Import steps
 
-1. Open SillyTavern → **World Info** (Lorebook)
-2. Click **Import**
-3. Select `forged-by-primus-core-systems.json`
-4. Attach the lorebook to your chat or character
-5. Start a new chat
+1. Download the latest **Release** package zip
+2. Open SillyTavern → **World Info** (Lorebook)
+3. Click **Import**
+4. Select `sillytavern/forged-by-primus-core-systems.json` from the unzipped package
+5. Attach the lorebook to your chat or character
+6. Start a new chat
 
 ### What is included
 
@@ -27,6 +30,16 @@ File: `forged-by-primus-core-systems.json`
 | Golden Era | Keyword |
 | Cybertron War | Keyword |
 | War on Earth | Keyword |
+
+### Local rebuild (optional)
+
+From the repo root:
+
+```bash
+python3 scripts/build_st_lorebook.py
+```
+
+This writes `forged-by-primus-core-systems.json` using the current `core-systems/*.md` files.
 
 ### Notes
 

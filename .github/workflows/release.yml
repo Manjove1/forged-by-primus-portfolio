@@ -40,15 +40,20 @@ jobs:
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
           echo "Using tag: $TAG"
 
+      - name: Build SillyTavern lorebook
+        run: |
+          python3 scripts/build_st_lorebook.py
+          mkdir -p packages/sillytavern
+          cp forged-by-primus-core-systems.json packages/sillytavern/
+          ls -lh packages/sillytavern/forged-by-primus-core-systems.json
+
       - name: Build curated package
         run: |
           mkdir -p package/core-systems package/docs package/sillytavern
           cp LICENSE README.md package/
           cp core-systems/*.md package/core-systems/
           cp docs/*.md package/docs/
-          if [ -d packages/sillytavern ]; then
-            cp -r packages/sillytavern/* package/sillytavern/
-          fi
+          cp packages/sillytavern/* package/sillytavern/
 
           cat > package/PACKAGE_README.md << 'EOF'
           # Forged by Primus — Portfolio Package
@@ -111,7 +116,7 @@ jobs:
 
             - **Core systems** — orchestrator, state integrity/recovery, casting rules, combat, energon/condition, growth, combiner mechanics, cassette protocol, and all three era scripts
             - **Documentation** — case study, technical systems writeup, and related docs
-            - **SillyTavern import** — `sillytavern/forged-by-primus-core-systems.json` ready for World Info import
+            - **SillyTavern import** — `sillytavern/forged-by-primus-core-systems.json` (built from core-systems at release time)
             - **LICENSE** + project README
 
             Full repository source (including character rosters) is also available via the automatic Source code zip below.
